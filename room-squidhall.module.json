@@ -1,0 +1,276 @@
+{
+    "module-name": "hall",
+	"doc": "Main module file for Squid Hall.",
+	"config": {
+		"doc": "Uses world defaults."
+	},
+	"resources": {
+		"textures": [],
+		"materials": [],
+		"objects": [
+			{
+				"resource-name": "floor",
+				"options": {
+					"doc": "'floor' hook function creates an object from scratch.",
+					"loader": "Floor",
+					"visible": true
+				},
+				"data": {
+					"size": [40, 68.7],
+					"position": [0, 0, 0],
+					"material": "macadam"
+				}
+			},
+			{
+				"resource-name": "arena",
+				"config": {
+					"pack-options": {
+						"action": "insert"
+					},
+					"file-name": "arena.babylon"
+				},
+				"options": {
+					"doc": "'default' hook function creates object from inserted data or URL.",
+					"loader": "default",
+					"visible": true
+				}
+			},
+			{
+				"resource-name": "square-section",
+				"options": {
+					"doc": "The Squid Hall Square, near the entrance.",
+					"loader": "FloorSection",
+					"visible": true
+				},
+				"data": {
+					"size": [9, 9],
+					"position": [25, 0.01, 3],
+					"material": "marble"
+				}
+			},
+			{
+				"resource-name": "art-show-section",
+				"options": {
+					"doc": "The Art Show.",
+					"loader": "FloorSection",
+					"visible": true
+				},
+				"data": {
+					"size": [14, 18],
+					"position": [5, 0.01, 0],
+					"material": "marble"
+				}
+			},
+			{
+				"resource-name": "displays-section",
+				"options": {
+					"doc": "The Displays area.",
+					"loader": "FloorSection",
+					"visible": true
+				},
+				"data": {
+					"size": [15, 40],
+					"position": [22, 0.01, 13],
+					"material": "marble"
+				}
+			},
+			{
+				"resource-name": "dealer-north-section",
+				"options": {
+					"doc": "The Dealers Hall, North Island.",
+					"loader": "FloorSection",
+					"visible": true
+				},
+				"data": {
+					"size": [14, 6],
+					"position": [5, 0.01, 25],
+					"material": "marble"
+				}
+			},
+			{
+				"resource-name": "dealer-south-section",
+				"options": {
+					"doc": "The Dealers Hall, South Island.",
+					"loader": "FloorSection",
+					"visible": true
+				},
+				"data": {
+					"size": [14, 6],
+					"position": [5, 0.01, 35],
+					"material": "marble"
+				}
+			},
+			{
+				"resource-name": "dealer-stewart-section",
+				"options": {
+					"doc": "The Dealers Hall, Stewart Island.",
+					"loader": "FloorSection",
+					"visible": true
+				},
+				"data": {
+					"size": [4, 6],
+					"position": [15, 0.01, 45],
+					"material": "marble"
+				}
+			},
+			{
+				"resource-name": "beam",
+				"config": {
+					"pack-options": {
+						"action": "insert"
+					},
+					"file-name": "beam.babylon"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "banner",
+				"config": {
+					"pack-options": {
+						"action": "insert"
+					},
+					"file-name": "banner.babylon"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "curtain",
+				"config": {
+					"pack-options": {
+						"action": "insert"
+					},
+					"file-name": "curtain.babylon"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "squid",
+				"config": {
+					"pack-options": {
+						"action": "insert"
+					},
+					"file-name": "squid.babylon"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "skybox",
+				"options": {
+					"doc": "'SkyBox' hook function creates object from scratch.",
+					"loader": "SkyBox",
+					"visible": true
+				},
+				"data": {
+					"doc": "Possible values: textures/skybox/skybox1/skybox1, textures/skybox/Ely38/Ely38, etc.",
+					"cube-texture": "textures/skybox/Ely38/Ely38"
+				}
+			},
+			{
+				"resource-name": "user",
+				"options": {
+					"doc": "'UserCamera' hook function creates object from scratch.",
+					"loader": "UserCamera",
+					"visible": true
+				}, 
+				"data": {
+					"position": [36.5, 1.6, 3]
+				}
+			}
+		],
+		"mods": []
+	},
+	"layouts": [
+		{
+			"doc": "Object layouts for the entire arena.",
+			"layout-name": "arena",
+			"options": {
+				"doc": "Area origin and size are required are not currently implemented.",
+				"size": [50, 30, 72],
+				"origin": [0, 0, 0]
+			},
+			"data": [
+				{
+					"object": "beam",
+					"data": [
+						{
+							"place-name": "beams",
+							"options": {
+								"doc": "Uses a hook placer function that knows where it wants things.",
+								"placer": "BeamPlacer"
+							}
+						}
+					]
+				},
+				{
+					"object": "banner",
+					"data": [
+						{
+							"place-name": "banners",
+							"options": {
+								"placer": "BannerPlacer"
+							},
+							"data": {
+								"blm":{
+									"x": 25.0,
+									"y": 11.7,
+									"z": -29.9,
+									"rotateY": 0,
+									"texture": "banner-blm.png"
+								}
+							}
+						}
+					]
+				},
+				{
+					"object": "curtain",
+					"data": [
+						{
+							"place-name": "curtains",
+							"options": {
+								"doc": "Uses a hook placer function that knows where it wants things.",
+								"placer": "CurtainPlacer"
+							}
+						}
+					]
+				},
+				{
+					"object": "squid",
+					"data": [
+						{
+							"place-name": "squid",
+							"options": {
+								"doc": "Uses a hook placer function that requires some option values.",
+								"placer": "SquidPlacer"
+							},
+							"data": {
+								"position": [34.5, 11, 62.5],
+								"rotation": 3.14
+							}
+						}
+					]
+				},
+				{
+					"doc": "TODO: this needs to refer to a light object, will require rework of the hook function.",
+					"object": "_none_",
+					"data": [
+						{
+							"place-name": "lights",
+							"options": {
+								"doc": "Uses a hook placer function that knows where it wants things.",
+								"placer": "LightPlacer"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

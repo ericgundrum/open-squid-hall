@@ -1,0 +1,1 @@
+Files under 'textures' are image and procedural textures used in the project.

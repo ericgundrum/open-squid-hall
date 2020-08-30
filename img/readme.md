@@ -1,0 +1,1 @@
+Files under 'img' are runtime image files for HTML use.

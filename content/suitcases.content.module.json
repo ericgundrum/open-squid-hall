@@ -1,0 +1,140 @@
+{
+	"module-name": "suitcases",
+	"doc": "Suitcases.",
+	"config": {
+		"doc": "Using defaults from world.module.json, except we override the 'generate-dir', the 'texture-dir' and specify 'autoload'.",
+		"generate-dir": "libs/modules/content/",
+		"object-dir": "objects/content/",
+		"texture-dir": "textures/content/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "Orodruin",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "Orodruin.png"
+				}
+			},
+			{
+				"resource-name": "Kadath",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "Kadath.png"
+				}
+			},
+			{
+				"resource-name": "Genosha",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "Genosha.png"
+				}
+			},
+			{
+				"resource-name": "Gallifrey",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "Gallifrey.jpg"
+				}
+			},
+			{
+				"resource-name": "PropSimonTam",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "Prop_Simon_Tam.png"
+				}
+			}
+		],
+		"objects": [
+			{
+				"resource-name": "suitcase",
+				"config": {
+					"pack-options": {
+						"action": "insert"
+					},
+					"file-name": "suitcase.babylon"
+				}
+			}
+		]
+	},
+	"layouts": [
+		{
+			"doc": "Object layouts general to the entire arena.",
+			"layout-name": "general",
+			"data": [
+				{
+					"object": "suitcase",
+					"data": [
+						{
+							"place-name": "suitcase-Orodruin",
+							"options": {
+								"placer": "SuitcasePlacer"
+							},
+							"data": {
+								"texture": "Orodruin",
+								"doc": "We can't do the thing where we put the suitcase off the floor. I'm having problems with the positioning.",
+								"position": [25, 0.01, 63.5],
+								"rotation": [0, 0, 0]
+							}
+						},
+						{
+							"place-name": "suitcase-Kadath",
+							"options": {
+								"placer": "SuitcasePlacer"
+							},
+							"data": {
+								"texture": "Kadath",
+								"position": [6, 0.01, 47],
+								"rotation": [0, 1.57, 0]
+							}
+						},
+						{
+							"place-name": "suitcase-Genosha",
+							"options": {
+								"placer": "SuitcasePlacer"
+							},
+							"data": {
+								"texture": "Genosha",
+								"position": [23, 0.01, 52],
+								"rotation": [0, 1.57, 0]
+							}
+						},
+						{
+							"place-name": "suitcase-Gallifrey",
+							"options": {
+								"placer": "SuitcasePlacer"
+							},
+							"data": {
+								"texture": "Gallifrey",
+								"position": [36, 0.01, 10],
+								"rotation": [0, 1.57, 0]
+							}
+						},
+						{
+							"place-name": "suitcase-PropSimonTam",
+							"options": {
+								"placer": "SuitcasePlacer"
+							},
+							"data": {
+								"texture": "PropSimonTam",
+								"position": [22.8, 0.01, 13.3],
+								"rotation": [0, 0, 0]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

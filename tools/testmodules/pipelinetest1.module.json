@@ -1,0 +1,36 @@
+{
+	"doc": "Test Asset Pipeline module. Used only to determine if asset pipeline works.",
+	"module-name": "pipelineTest",
+	"config": {
+		"doc": "Overriding selected directories for testing purposes. Rest of config defaults to world.module.json.",
+		"build-dir": "tools/testmodules/build/",
+		"texture-dir": "tools/testmodules/textures/"
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "Ai-Weiwei-1",
+				"doc": "From: https://squid.fanac.com/art-show/ai-weiwei/",
+				"config": {
+					"cache-options": {
+						"url-source": "https://squid.fanac.com/wp-content/uploads/2020/05/IP_0815_-053-scaled.jpg",
+						"filter-profile": "ArtJpg"
+					},
+					"file-name": "ai-weiwei-1.png"
+				}
+			},
+			{
+				"resource-name": "kathryn-duval-1",
+				"doc": "From: https://squid.fanac.com/kathryn-duval/",
+				"config": {
+					"cache-options": {
+						"url-source": "https://squid.fanac.com/wp-content/uploads/2020/05/IMG_0215-scaled.jpg",
+						"filter-profile": "ArtJpg"
+					},
+					"file-name": "kathryn-duval-1.png"
+				}
+			}
+		]
+	}
+}
+			

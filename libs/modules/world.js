@@ -1,0 +1,5 @@
+var world = (function(){
+
+   return {
+   };
+})();

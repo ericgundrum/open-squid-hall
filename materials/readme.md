@@ -1,0 +1,1 @@
+Files under 'materials' are materials used in the project.
