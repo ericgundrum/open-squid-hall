@@ -1,0 +1,108 @@
+{
+	"module-name": "artshow_dan_steffan",
+	"doc": "Dan Steffan's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "dan-steffan-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "dan-steffan-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "dan-steffan-Banana-Wings-50.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "dan-steffan-Banana-Wings-50.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "dan-steffan-chung-11-front.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "dan-steffan-chung-11-front.jpg"
+				}
+			},
+			{
+				"resource-name": "dan-steffan-chunga-14-front.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "dan-steffan-chunga-14-front.jpg"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-1,2-0",
+					"data": [
+						{
+							"place-name": "dan-steffan-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "Dan Steffan",
+									"link-text": "More about Dan Steffan",
+									"link": "http://fancyclopedia.org/Dan_Steffan",
+									"text": ""
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "dan-steffan-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "dan-steffan-Banana-Wings-50.jpg",
+										"size": [1.10, 0.78],
+										"position": [0.05, 0.20]
+									},
+									{
+										"texture": "dan-steffan-chung-11-front.jpg",
+										"size": [0.5, 0.65],
+										"position": [0.05, 1.05]
+									},
+									{
+										"texture": "dan-steffan-chung-11-front.jpg",
+										"size": [0.5, 0.65],
+										"position": [0.65, 1.05]
+									}
+								],
+								"place-on": "back"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,94 @@
+{
+	"module-name": "artshow_stu_shiffman",
+	"doc": "Stu Shiffman's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "stu-shiffman-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "stu-shiffman-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "stu-shiffman-chunga-01-front.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "stu-shiffman-chunga-01-front.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "stu-shiffman-chunga-11-back.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "stu-shiffman-chunga-11-back.jpg"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-3,4-1",
+					"data": [
+						{
+							"place-name": "stu-shiffman-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "Stu Shiffman",
+									"link-text": "More about Stu Shiffman",
+									"link": "http://fancyclopedia.org/Stu_Shiffman",
+									"text": ""
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "stu-shiffman-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "stu-shiffman-chunga-01-front.jpg",
+										"size": [0.5, 0.65],
+										"position": [0.05, 0.20]
+									},
+									{
+										"texture": "stu-shiffman-chunga-11-back.jpg",
+										"size": [0.5, 0.65],
+										"position": [0.65, 0.20]
+									}
+								],
+								"place-on": "front"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

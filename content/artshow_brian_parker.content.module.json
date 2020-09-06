@@ -1,0 +1,80 @@
+{
+	"module-name": "artshow_brian_parker",
+	"doc": "Brian Parker's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "brian-parker-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "brian-parker-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "Brian-Parker-Beam13.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "Brian-Parker-Beam13.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-11,12-1",
+					"data": [
+						{
+							"place-name": "brian-parker-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "Brian Parker",
+									"link-text": "More about Brian Parker",
+									"link": "http://fancyclopedia.org/Brian_Parker",
+									"text": ""
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "brian-parker-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "Brian-Parker-Beam13.jpg",
+										"size": [0.5, 0.65],
+										"position": [0.05, 0.20]
+									}
+								],
+								"place-on": "front"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"module-name": "artshow_harry_bell",
+	"doc": "Harry Bell's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "harry-bell-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "harry-bell-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "harry-bell-Inca09L.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "harry-bell-Inca09L.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-9,10-0",
+					"data": [
+						{
+							"place-name": "harry-bell-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "Harry Bell",
+									"link-text": "More about Harry Bell",
+									"link": "http://fancyclopedia.org/Harry_Bell",
+									"text": ""
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "harry-bell-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "harry-bell-Inca09L.jpg",
+										"size": [0.5, 0.70],
+										"position": [0.05, 0.20]
+									}
+								],
+								"place-on": "back"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

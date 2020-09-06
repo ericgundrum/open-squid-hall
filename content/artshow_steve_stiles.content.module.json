@@ -1,0 +1,97 @@
+{
+	"module-name": "artshow_steve_stiles",
+	"doc": "Steve Stiles's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "steve-stiles-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "steve-stiles-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "steve-stiles-chunga-14-back.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "steve-stiles-chunga-14-back.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "steve-stiles-chunga-21-front.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "steve-stiles-chunga-21-front.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-13,14-0",
+					"data": [
+						{
+							"place-name": "steve-stiles-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "Steve Stiles",
+									"link-text": "More about Steve Stiles",
+									"link": "http://fancyclopedia.org/Steve_Stiles",
+									"text": ""
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "steve-stiles-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "steve-stiles-chunga-14-back.jpg",
+										"size": [0.5, 0.65],
+										"position": [0.05, 0.20]
+									},
+									{
+										"texture": "steve-stiles-chunga-21-front.jpg",
+										"size": [0.5, 0.65],
+										"position": [0.65, 0.20]
+									}
+								],
+								"place-on": "back"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

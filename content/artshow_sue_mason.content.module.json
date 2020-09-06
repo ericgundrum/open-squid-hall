@@ -1,0 +1,94 @@
+{
+	"module-name": "artshow_sue_mason",
+	"doc": "Sue Mason's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "sue-mason-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "sue-mason-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "sue-mason-plokta-19.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "sue-mason-plokta-19.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "sue-mason-plokta-39.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "sue-mason-plokta-39.jpg"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-3,4-0",
+					"data": [
+						{
+							"place-name": "sue-mason-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "Sue Mason",
+									"link-text": "More about Sue Mason",
+									"link": "http://fancyclopedia.org/Sue_Mason",
+									"text": ""
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "sue-mason-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "sue-mason-plokta-19.jpg",
+										"size": [0.5, 0.72],
+										"position": [0.05, 0.20]
+									},
+									{
+										"texture": "sue-mason-plokta-39.jpg",
+										"size": [0.5, 0.71],
+										"position": [0.65, 0.20]
+									}
+								],
+								"place-on": "front"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

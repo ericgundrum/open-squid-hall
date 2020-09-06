@@ -1,0 +1,80 @@
+{
+	"module-name": "artshow_william_rotsler",
+	"doc": "Bill Rotsler's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "rotsler-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "rotsler-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "rotsler-chunga-09-back.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "rotsler-chunga-09-back.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-17,18-1",
+					"data": [
+						{
+							"place-name": "william-rotsler-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "William Rotsler",
+									"link-text": "More about William Rotsler",
+									"link": "http://fancyclopedia.org/Bill_Rotsler",
+									"text": ""
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "rotsler-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "rotsler-chunga-09-back.jpg",
+										"size": [0.5, 0.65],
+										"position": [0.05, 0.20]
+									}
+								],
+								"place-on": "front"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

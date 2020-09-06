@@ -1,0 +1,122 @@
+{
+	"module-name": "artshow_atom",
+	"doc": "ATom's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "atom-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "atom-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "atom-03.jpeg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "atom-03.jpeg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "Atom-13.jpeg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "Atom-13.jpeg"
+				}
+			},
+			{
+				"resource-name": "Atom-15.jpeg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "Atom-15.jpeg"
+				}
+			},
+			{
+				"resource-name": "Atom-23.jpeg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "Atom-23.jpeg"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-1,2-1",
+					"data": [
+						{
+							"place-name": "atom-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "ATom",
+									"link-text": "More about ATom",
+									"link": "http://fancyclopedia.org/ATom",
+									"text": ""
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "atom-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "atom-03.jpeg",
+										"size": [0.5, 0.73],
+										"position": [0.05, 0.20]
+									},
+									{
+										"texture": "Atom-13.jpeg",
+										"size": [0.5, 0.71],
+										"position": [0.65, 0.20]
+									},
+									{
+										"texture": "Atom-15.jpeg",
+										"size": [0.5, 0.66],
+										"position": [0.05, 1.00]
+									},
+									{
+										"texture": "Atom-23.jpeg",
+										"size": [0.5, 0.63],
+										"position": [0.65, 1.00]
+									}
+								],
+								"place-on": "front"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

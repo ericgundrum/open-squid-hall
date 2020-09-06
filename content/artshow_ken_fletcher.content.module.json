@@ -1,0 +1,97 @@
+{
+	"module-name": "artshow_ken_fletcher",
+	"doc": "Ken Fletcher's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "ken-fletcher-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "ken-fletcher-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "ken-fletcher-SaFA.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "ken-fletcher-SaFA.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "ken-fletcher-vacuum.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "ken-fletcher-vacuum.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-11,12-0",
+					"data": [
+						{
+							"place-name": "ken-fletcher-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "Ken Fletcher",
+									"link-text": "More about Ken Fletcher",
+									"link": "http://fancyclopedia.org/Ken_Fletcher",
+									"text": ""
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "ken-fletcher-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "ken-fletcher-SaFA.jpg",
+										"size": [0.5, 0.65],
+										"position": [0.05, 0.20]
+									},
+									{
+										"texture": "ken-fletcher-vacuum.jpg",
+										"size": [0.5, 0.23],
+										"position": [0.65, 0.40]
+									}
+								],
+								"place-on": "back"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
