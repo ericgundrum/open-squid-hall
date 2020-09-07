@@ -49,6 +49,42 @@
 					},
 					"file-name": "dan-steffan-chunga-14-front.jpg"
 				}
+			},
+			{
+				"resource-name": "dan-steffan-Inca08.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "dan-steffan-Inca08.jpg"
+				}
+			},
+			{
+				"resource-name": "dan-steffan-trap-door-22.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "dan-steffan-trap-door-22.jpg"
+				}
+			},
+			{
+				"resource-name": "dan-steffan-trap-door-23.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "dan-steffan-trap-door-23.jpg"
+				}
+			},
+			{
+				"resource-name": "dan-steffan-trap-door-30.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "dan-steffan-trap-door-30.jpg"
+				}
 			}
 		],
 		"materials": [],
@@ -92,9 +128,51 @@
 										"position": [0.05, 1.05]
 									},
 									{
-										"texture": "dan-steffan-chung-11-front.jpg",
+										"texture": "dan-steffan-chunga-14-front.jpg",
 										"size": [0.5, 0.65],
 										"position": [0.65, 1.05]
+									}
+								],
+								"place-on": "back"
+							}
+						}
+					]
+				},
+				{
+					"object": "artshow.art-panel-1,2-1",
+					"data": [
+						{
+							"place-name": "dan-steffan-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "Dan Steffan",
+									"link-text": "More about Dan Steffan",
+									"link": "http://fancyclopedia.org/Dan_Steffan",
+									"text": ""
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "dan-steffan-Inca08.jpg",
+										"size": [0.5, 0.71],
+										"position": [0.05, 0.20]
+									},
+									{
+										"texture": "dan-steffan-trap-door-22.jpg",
+										"size": [0.42, 0.65],
+										"position": [0.69, 0.20]
+									},
+									{
+										"texture": "dan-steffan-trap-door-23.jpg",
+										"size": [0.42, 0.65],
+										"position": [0.09, 1.0]
+									},
+									{
+										"texture": "dan-steffan-trap-door-30.jpg",
+										"size": [0.42, 0.65],
+										"position": [0.69, 1.0]
 									}
 								],
 								"place-on": "back"

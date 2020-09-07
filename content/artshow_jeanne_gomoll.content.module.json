@@ -1,0 +1,122 @@
+{
+	"module-name": "artshow_jeanne_gomoll",
+	"doc": "Jeanne Gomoll's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "jeanne-gomoll-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "jeanne-gomoll-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "jeanne-gomoll-janus-04-Vol-2-No-2.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "jeanne-gomoll-janus-04-Vol-2-No-2.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "jeanne-gomoll-space-babe-tiara.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "jeanne-gomoll-space-babe-tiara.jpg"
+				}
+			},
+			{
+				"resource-name": "jeanne-gomoll-space-babe.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "jeanne-gomoll-space-babe.jpg"
+				}
+			},
+			{
+				"resource-name": "jeanne-gomoll-PLUGLUNK.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "jeanne-gomoll-PLUGLUNK.jpg"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-5,6-0",
+					"data": [
+						{
+							"place-name": "jeanne-gomoll-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "Jeanne Gomoll",
+									"link-text": "More about Jeanne Gomoll",
+									"link": "http://fancyclopedia.org/Jeanne_Gomoll",
+									"text": ""
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "jeanne-gomoll-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "jeanne-gomoll-janus-04-Vol-2-No-2.jpg",
+										"size": [0.5, 0.71],
+										"position": [0.05, 0.20]
+									},
+									{
+										"texture": "jeanne-gomoll-space-babe-tiara.jpg",
+										"size": [0.5, 0.3],
+										"position": [0.65, 0.20]
+									},
+									{
+										"texture": "jeanne-gomoll-space-babe.jpg",
+										"size": [0.5, 0.47],
+										"position": [0.65, 0.60]
+									},
+									{
+										"texture": "jeanne-gomoll-PLUGLUNK.jpg",
+										"size": [0.5, 0.65],
+										"position": [0.05, 1.00]
+									}
+								],
+								"place-on": "back"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

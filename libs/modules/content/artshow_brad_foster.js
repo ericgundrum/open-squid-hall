@@ -19,6 +19,15 @@ var artshow_brad_foster = (function(){
                   "dir": "textures/content/artshow/",
                   "file-name": "brad-foster-chunga-07-front.jpg"
                }
+         },
+         "brad-foster-trap-door-27.jpg": {
+               "options": {
+                  "loader": "default"
+               },
+               "data": {
+                  "dir": "textures/content/artshow/",
+                  "file-name": "brad-foster-trap-door-27.jpg"
+               }
          },},
       materials: {},
       objects: {
@@ -30,7 +39,7 @@ var artshow_brad_foster = (function(){
             },
             "objectPlacements": [
                {
-                  "object": "artshow.art-panel-1,2-1",
+                  "object": "artshow.art-panel-3,4-0",
                   "data": [
                      {
                         "place-name": "brad-foster-art",
@@ -60,10 +69,21 @@ var artshow_brad_foster = (function(){
                                  "texture": "brad-foster-chunga-07-front.jpg",
                                  "size": [
                                     0.5,
-                                    0.65
+                                    0.71
                                  ],
                                  "position": [
                                     0.05,
+                                    0.2
+                                 ]
+                              },
+                              {
+                                 "texture": "brad-foster-trap-door-27.jpg",
+                                 "size": [
+                                    0.42,
+                                    0.65
+                                 ],
+                                 "position": [
+                                    0.69,
                                     0.2
                                  ]
                               }

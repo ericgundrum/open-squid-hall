@@ -31,6 +31,30 @@
 				"options": {
 					"loader": "default"
 				}
+			},
+			{
+				"resource-name": "harry-bell-trap-door-25.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "harry-bell-trap-door-25.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "harry-bell-trap-door-29.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "harry-bell-trap-door-29.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
 			}
 		],
 		"materials": [],
@@ -67,6 +91,16 @@
 										"texture": "harry-bell-Inca09L.jpg",
 										"size": [0.5, 0.70],
 										"position": [0.05, 0.20]
+									},
+									{
+										"texture": "harry-bell-trap-door-25.jpg",
+										"size": [0.41, 0.65],
+										"position": [0.09, 1.0]
+									},
+									{
+										"texture": "harry-bell-trap-door-29.jpg",
+										"size": [0.41, 0.65],
+										"position": [0.69, 1.0]
 									}
 								],
 								"place-on": "back"

@@ -1,0 +1,108 @@
+{
+	"module-name": "artshow_georgie_schnobrich",
+	"doc": "Georgie Schnobrich's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "georgie-schnobrich-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "georgie-schnobrich-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "georgie-schnobrich-2003-tiptree-ceremony.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "georgie-schnobrich-2003-tiptree-ceremony.jpg"
+				}
+			},
+			{
+				"resource-name": "georgie-schnobrich-Forbidden Pasture.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "georgie-schnobrich-Forbidden Pasture.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "georgie-schnobrich-chunga-03.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "georgie-schnobrich-chunga-03.jpg"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-15,16-0",
+					"data": [
+						{
+							"place-name": "georgie-schnobrich-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "Georgie Schnobrich",
+									"link-text": "More about Georgie Schnobrich",
+									"link": "http://fancyclopedia.org/Georgie_Schnobrich",
+									"text": ""
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "georgie-schnobrich-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "georgie-schnobrich-2003-tiptree-ceremony.jpg",
+										"size": [1.0, 0.74],
+										"position": [0.10, 0.20]
+									},
+									{
+										"texture": "georgie-schnobrich-chunga-03.jpg",
+										"size": [0.5, 0.65],
+										"position": [0.05, 1.00]
+									},
+									{
+										"texture": "georgie-schnobrich-Forbidden Pasture.jpg",
+										"size": [0.5, 0.39],
+										"position": [0.65, 1.00]
+									}
+								],
+								"place-on": "front"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

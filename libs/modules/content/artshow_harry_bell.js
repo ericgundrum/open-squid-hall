@@ -19,6 +19,24 @@ var artshow_harry_bell = (function(){
                   "dir": "textures/content/artshow/",
                   "file-name": "harry-bell-Inca09L.jpg"
                }
+         },
+         "harry-bell-trap-door-25.jpg": {
+               "options": {
+                  "loader": "default"
+               },
+               "data": {
+                  "dir": "textures/content/artshow/",
+                  "file-name": "harry-bell-trap-door-25.jpg"
+               }
+         },
+         "harry-bell-trap-door-29.jpg": {
+               "options": {
+                  "loader": "default"
+               },
+               "data": {
+                  "dir": "textures/content/artshow/",
+                  "file-name": "harry-bell-trap-door-29.jpg"
+               }
          },},
       materials: {},
       objects: {
@@ -65,6 +83,28 @@ var artshow_harry_bell = (function(){
                                  "position": [
                                     0.05,
                                     0.2
+                                 ]
+                              },
+                              {
+                                 "texture": "harry-bell-trap-door-25.jpg",
+                                 "size": [
+                                    0.41,
+                                    0.65
+                                 ],
+                                 "position": [
+                                    0.09,
+                                    1.0
+                                 ]
+                              },
+                              {
+                                 "texture": "harry-bell-trap-door-29.jpg",
+                                 "size": [
+                                    0.41,
+                                    0.65
+                                 ],
+                                 "position": [
+                                    0.69,
+                                    1.0
                                  ]
                               }
                            ],

@@ -31,6 +31,18 @@
 				"options": {
 					"loader": "default"
 				}
+			},
+			{
+				"resource-name": "brad-foster-trap-door-27.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "brad-foster-trap-door-27.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
 			}
 		],
 		"materials": [],
@@ -43,7 +55,7 @@
 			},
 			"data": [
 				{
-					"object": "artshow.art-panel-1,2-1",
+					"object": "artshow.art-panel-3,4-0",
 					"data": [
 						{
 							"place-name": "brad-foster-art",
@@ -65,8 +77,13 @@
 									},
 									{
 										"texture": "brad-foster-chunga-07-front.jpg",
-										"size": [0.5, 0.65],
+										"size": [0.5, 0.71],
 										"position": [0.05, 0.20]
+									},
+									{
+										"texture": "brad-foster-trap-door-27.jpg",
+										"size": [0.42, 0.65],
+										"position": [0.69, 0.20]
 									}
 								],
 								"place-on": "back"
