@@ -9,81 +9,81 @@
 	"resources": {
 		"textures": [
 			{
-				"resource-name": "dan-steffan-nameplate.png",
+				"resource-name": "dan_steffan-nameplate.png",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "dan-steffan-nameplate.png"
+					"file-name": "dan_steffan-nameplate.png"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "dan-steffan-Banana-Wings-50.jpg",
+				"resource-name": "dan_steffan-Banana-Wings-50.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "dan-steffan-Banana-Wings-50.jpg"
+					"file-name": "dan_steffan-Banana-Wings-50.jpg"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "dan-steffan-chung-11-front.jpg",
+				"resource-name": "dan_steffan-chung-11-front.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "dan-steffan-chung-11-front.jpg"
+					"file-name": "dan_steffan-chung-11-front.jpg"
 				}
 			},
 			{
-				"resource-name": "dan-steffan-chunga-14-front.jpg",
+				"resource-name": "dan_steffan-chunga-14-front.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "dan-steffan-chunga-14-front.jpg"
+					"file-name": "dan_steffan-chunga-14-front.jpg"
 				}
 			},
 			{
-				"resource-name": "dan-steffan-Inca08.jpg",
+				"resource-name": "dan_steffan-Inca08.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "dan-steffan-Inca08.jpg"
+					"file-name": "dan_steffan-Inca08.jpg"
 				}
 			},
 			{
-				"resource-name": "dan-steffan-trap-door-22.jpg",
+				"resource-name": "dan_steffan-trap-door-22.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "dan-steffan-trap-door-22.jpg"
+					"file-name": "dan_steffan-trap-door-22.jpg"
 				}
 			},
 			{
-				"resource-name": "dan-steffan-trap-door-23.jpg",
+				"resource-name": "dan_steffan-trap-door-23.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "dan-steffan-trap-door-23.jpg"
+					"file-name": "dan_steffan-trap-door-23.jpg"
 				}
 			},
 			{
-				"resource-name": "dan-steffan-trap-door-30.jpg",
+				"resource-name": "dan_steffan-trap-door-30.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "dan-steffan-trap-door-30.jpg"
+					"file-name": "dan_steffan-trap-door-30.jpg"
 				}
 			}
 		],
@@ -100,7 +100,7 @@
 					"object": "artshow.art-panel-1,2-0",
 					"data": [
 						{
-							"place-name": "dan-steffan-art",
+							"place-name": "dan_steffan-art",
 							"options": {
 								"placer": "ArtPlacer",
 								"moreInfoData": {
@@ -113,22 +113,22 @@
 							"data": {
 								"textures": [
 									{
-										"texture": "dan-steffan-nameplate.png",
+										"texture": "dan_steffan-nameplate.png",
 										"size": [1.10, 0.11],
 										"position": [0.05, 0.04]
 									},
 									{
-										"texture": "dan-steffan-Banana-Wings-50.jpg",
+										"texture": "dan_steffan-Banana-Wings-50.jpg",
 										"size": [1.10, 0.78],
 										"position": [0.05, 0.20]
 									},
 									{
-										"texture": "dan-steffan-chung-11-front.jpg",
+										"texture": "dan_steffan-chung-11-front.jpg",
 										"size": [0.5, 0.65],
 										"position": [0.05, 1.05]
 									},
 									{
-										"texture": "dan-steffan-chunga-14-front.jpg",
+										"texture": "dan_steffan-chunga-14-front.jpg",
 										"size": [0.5, 0.65],
 										"position": [0.65, 1.05]
 									}
@@ -142,7 +142,7 @@
 					"object": "artshow.art-panel-1,2-1",
 					"data": [
 						{
-							"place-name": "dan-steffan-art",
+							"place-name": "dan_steffan-art",
 							"options": {
 								"placer": "ArtPlacer",
 								"moreInfoData": {
@@ -155,22 +155,22 @@
 							"data": {
 								"textures": [
 									{
-										"texture": "dan-steffan-Inca08.jpg",
+										"texture": "dan_steffan-Inca08.jpg",
 										"size": [0.5, 0.71],
 										"position": [0.05, 0.20]
 									},
 									{
-										"texture": "dan-steffan-trap-door-22.jpg",
+										"texture": "dan_steffan-trap-door-22.jpg",
 										"size": [0.42, 0.65],
 										"position": [0.69, 0.20]
 									},
 									{
-										"texture": "dan-steffan-trap-door-23.jpg",
+										"texture": "dan_steffan-trap-door-23.jpg",
 										"size": [0.42, 0.65],
 										"position": [0.09, 1.0]
 									},
 									{
-										"texture": "dan-steffan-trap-door-30.jpg",
+										"texture": "dan_steffan-trap-door-30.jpg",
 										"size": [0.42, 0.65],
 										"position": [0.69, 1.0]
 									}

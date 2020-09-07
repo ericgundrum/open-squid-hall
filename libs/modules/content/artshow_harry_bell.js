@@ -2,40 +2,40 @@ var artshow_harry_bell = (function(){
 
    return {
       textures: {
-         "harry-bell-nameplate.png": {
+         "harry_bell-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "harry-bell-nameplate.png"
+                  "file-name": "harry_bell-nameplate.png"
                }
          },
-         "harry-bell-Inca09L.jpg": {
+         "harry_bell-Inca09L.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "harry-bell-Inca09L.jpg"
+                  "file-name": "harry_bell-Inca09L.jpg"
                }
          },
-         "harry-bell-trap-door-25.jpg": {
+         "harry_bell-trap-door-25.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "harry-bell-trap-door-25.jpg"
+                  "file-name": "harry_bell-trap-door-25.jpg"
                }
          },
-         "harry-bell-trap-door-29.jpg": {
+         "harry_bell-trap-door-29.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "harry-bell-trap-door-29.jpg"
+                  "file-name": "harry_bell-trap-door-29.jpg"
                }
          },},
       materials: {},
@@ -51,7 +51,7 @@ var artshow_harry_bell = (function(){
                   "object": "artshow.art-panel-9,10-0",
                   "data": [
                      {
-                        "place-name": "harry-bell-art",
+                        "place-name": "harry_bell-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -64,7 +64,7 @@ var artshow_harry_bell = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "harry-bell-nameplate.png",
+                                 "texture": "harry_bell-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -75,7 +75,7 @@ var artshow_harry_bell = (function(){
                                  ]
                               },
                               {
-                                 "texture": "harry-bell-Inca09L.jpg",
+                                 "texture": "harry_bell-Inca09L.jpg",
                                  "size": [
                                     0.5,
                                     0.7
@@ -86,7 +86,7 @@ var artshow_harry_bell = (function(){
                                  ]
                               },
                               {
-                                 "texture": "harry-bell-trap-door-25.jpg",
+                                 "texture": "harry_bell-trap-door-25.jpg",
                                  "size": [
                                     0.41,
                                     0.65
@@ -97,7 +97,7 @@ var artshow_harry_bell = (function(){
                                  ]
                               },
                               {
-                                 "texture": "harry-bell-trap-door-29.jpg",
+                                 "texture": "harry_bell-trap-door-29.jpg",
                                  "size": [
                                     0.41,
                                     0.65

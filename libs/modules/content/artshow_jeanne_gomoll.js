@@ -2,46 +2,46 @@ var artshow_jeanne_gomoll = (function(){
 
    return {
       textures: {
-         "jeanne-gomoll-nameplate.png": {
+         "jeanne_gomoll-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "jeanne-gomoll-nameplate.png"
+                  "file-name": "jeanne_gomoll-nameplate.png"
                }
          },
-         "jeanne-gomoll-janus-04-Vol-2-No-2.jpg": {
+         "jeanne_gomoll-janus-04-Vol-2-No-2.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "jeanne-gomoll-janus-04-Vol-2-No-2.jpg"
+                  "file-name": "jeanne_gomoll-janus-04-Vol-2-No-2.jpg"
                }
          },
-         "jeanne-gomoll-space-babe-tiara.jpg": {
+         "jeanne_gomoll-space-babe-tiara.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "jeanne-gomoll-space-babe-tiara.jpg"
+                  "file-name": "jeanne_gomoll-space-babe-tiara.jpg"
                }
          },
-         "jeanne-gomoll-space-babe.jpg": {
+         "jeanne_gomoll-space-babe.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "jeanne-gomoll-space-babe.jpg"
+                  "file-name": "jeanne_gomoll-space-babe.jpg"
                }
          },
-         "jeanne-gomoll-PLUGLUNK.jpg": {
+         "jeanne_gomoll-PLUGLUNK.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "jeanne-gomoll-PLUGLUNK.jpg"
+                  "file-name": "jeanne_gomoll-PLUGLUNK.jpg"
                }
          },},
       materials: {},
@@ -57,7 +57,7 @@ var artshow_jeanne_gomoll = (function(){
                   "object": "artshow.art-panel-5,6-0",
                   "data": [
                      {
-                        "place-name": "jeanne-gomoll-art",
+                        "place-name": "jeanne_gomoll-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -70,7 +70,7 @@ var artshow_jeanne_gomoll = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "jeanne-gomoll-nameplate.png",
+                                 "texture": "jeanne_gomoll-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -81,7 +81,7 @@ var artshow_jeanne_gomoll = (function(){
                                  ]
                               },
                               {
-                                 "texture": "jeanne-gomoll-janus-04-Vol-2-No-2.jpg",
+                                 "texture": "jeanne_gomoll-janus-04-Vol-2-No-2.jpg",
                                  "size": [
                                     0.5,
                                     0.71
@@ -92,7 +92,7 @@ var artshow_jeanne_gomoll = (function(){
                                  ]
                               },
                               {
-                                 "texture": "jeanne-gomoll-space-babe-tiara.jpg",
+                                 "texture": "jeanne_gomoll-space-babe-tiara.jpg",
                                  "size": [
                                     0.5,
                                     0.3
@@ -103,7 +103,7 @@ var artshow_jeanne_gomoll = (function(){
                                  ]
                               },
                               {
-                                 "texture": "jeanne-gomoll-space-babe.jpg",
+                                 "texture": "jeanne_gomoll-space-babe.jpg",
                                  "size": [
                                     0.5,
                                     0.47
@@ -114,7 +114,7 @@ var artshow_jeanne_gomoll = (function(){
                                  ]
                               },
                               {
-                                 "texture": "jeanne-gomoll-PLUGLUNK.jpg",
+                                 "texture": "jeanne_gomoll-PLUGLUNK.jpg",
                                  "size": [
                                     0.5,
                                     0.65

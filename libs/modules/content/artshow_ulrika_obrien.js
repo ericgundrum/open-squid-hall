@@ -2,38 +2,38 @@ var artshow_ulrika_obrien = (function(){
 
    return {
       textures: {
-         "ulrika-obrien-nameplate.png": {
+         "ulrika_obrien-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "ulrika-obrien-nameplate.png"
+                  "file-name": "ulrika_obrien-nameplate.png"
                }
          },
-         "ulrika-obrien-chunga-23-front.jpg": {
+         "ulrika_obrien-chunga-23-front.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "ulrika-obrien-chunga-23-front.jpg"
+                  "file-name": "ulrika_obrien-chunga-23-front.jpg"
                }
          },
-         "ulrika-obrien-chunga-23-back.jpg": {
+         "ulrika_obrien-chunga-23-back.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "ulrika-obrien-chunga-23-back.jpg"
+                  "file-name": "ulrika_obrien-chunga-23-back.jpg"
                }
          },
-         "ulrika-obrien-Thy_Life's_a_Miracle.jpg": {
+         "ulrika_obrien-Thy_Life's_a_Miracle.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "ulrika-obrien-Thy_Life's_a_Miracle.jpg"
+                  "file-name": "ulrika_obrien-Thy_Life's_a_Miracle.jpg"
                }
          },},
       materials: {},
@@ -49,7 +49,7 @@ var artshow_ulrika_obrien = (function(){
                   "object": "artshow.art-panel-17,18-0",
                   "data": [
                      {
-                        "place-name": "ulrika-obrien-art",
+                        "place-name": "ulrika_obrien-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -62,7 +62,7 @@ var artshow_ulrika_obrien = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "ulrika-obrien-nameplate.png",
+                                 "texture": "ulrika_obrien-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -73,7 +73,7 @@ var artshow_ulrika_obrien = (function(){
                                  ]
                               },
                               {
-                                 "texture": "ulrika-obrien-chunga-23-front.jpg",
+                                 "texture": "ulrika_obrien-chunga-23-front.jpg",
                                  "size": [
                                     0.5,
                                     0.65
@@ -84,7 +84,7 @@ var artshow_ulrika_obrien = (function(){
                                  ]
                               },
                               {
-                                 "texture": "ulrika-obrien-chunga-23-back.jpg",
+                                 "texture": "ulrika_obrien-chunga-23-back.jpg",
                                  "size": [
                                     0.5,
                                     0.65
@@ -95,7 +95,7 @@ var artshow_ulrika_obrien = (function(){
                                  ]
                               },
                               {
-                                 "texture": "ulrika-obrien-Thy_Life's_a_Miracle.jpg",
+                                 "texture": "ulrika_obrien-Thy_Life's_a_Miracle.jpg",
                                  "size": [
                                     0.5,
                                     0.65

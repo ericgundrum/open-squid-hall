@@ -2,22 +2,22 @@ var artshow_graham_west = (function(){
 
    return {
       textures: {
-         "graham-west-nameplate.png": {
+         "graham_west-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "graham-west-nameplate.png"
+                  "file-name": "graham_west-nameplate.png"
                }
          },
-         "graham-west-RubberCrab-08.jpg": {
+         "graham_west-RubberCrab-08.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "graham-west-RubberCrab-08.jpg"
+                  "file-name": "graham_west-RubberCrab-08.jpg"
                }
          },},
       materials: {},
@@ -33,7 +33,7 @@ var artshow_graham_west = (function(){
                   "object": "artshow.art-panel-9,10-1",
                   "data": [
                      {
-                        "place-name": "graham-west-art",
+                        "place-name": "graham_west-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -46,7 +46,7 @@ var artshow_graham_west = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "graham-west-nameplate.png",
+                                 "texture": "graham_west-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -57,7 +57,7 @@ var artshow_graham_west = (function(){
                                  ]
                               },
                               {
-                                 "texture": "graham-west-RubberCrab-08.jpg",
+                                 "texture": "graham_west-RubberCrab-08.jpg",
                                  "size": [
                                     0.5,
                                     0.71

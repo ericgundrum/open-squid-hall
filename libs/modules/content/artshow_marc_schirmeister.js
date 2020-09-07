@@ -2,22 +2,22 @@ var artshow_marc_schirmeister = (function(){
 
    return {
       textures: {
-         "marc-schirmeister-nameplate.png": {
+         "marc_schirmeister-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "marc-schirmeister-nameplate.png"
+                  "file-name": "marc_schirmeister-nameplate.png"
                }
          },
-         "marc-schirmeister-chunga-09-front.jpg": {
+         "marc_schirmeister-chunga-09-front.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "marc-schirmeister-chunga-09-front.jpg"
+                  "file-name": "marc_schirmeister-chunga-09-front.jpg"
                }
          },},
       materials: {},
@@ -33,7 +33,7 @@ var artshow_marc_schirmeister = (function(){
                   "object": "artshow.art-panel-11,12-1",
                   "data": [
                      {
-                        "place-name": "marc-schirmeister-art",
+                        "place-name": "marc_schirmeister-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -46,7 +46,7 @@ var artshow_marc_schirmeister = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "marc-schirmeister-nameplate.png",
+                                 "texture": "marc_schirmeister-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -57,7 +57,7 @@ var artshow_marc_schirmeister = (function(){
                                  ]
                               },
                               {
-                                 "texture": "marc-schirmeister-chunga-09-front.jpg",
+                                 "texture": "marc_schirmeister-chunga-09-front.jpg",
                                  "size": [
                                     0.5,
                                     0.65

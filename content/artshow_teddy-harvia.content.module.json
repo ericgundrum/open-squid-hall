@@ -9,63 +9,63 @@
 	"resources": {
 		"textures": [
 			{
-				"resource-name": "teddy-harvia-nameplate.png",
+				"resource-name": "teddy_harvia-nameplate.png",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "teddy-harvia-nameplate.png"
+					"file-name": "teddy_harvia-nameplate.png"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "teddy-harvia-colossal-squid.png",
+				"resource-name": "teddy_harvia-colossal-squid.png",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "teddy-harvia-colossal-squid.png"
+					"file-name": "teddy_harvia-colossal-squid.png"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "teddy-harvia-loscon_art_300.jpg",
+				"resource-name": "teddy_harvia-loscon_art_300.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "teddy-harvia-loscon_art_300.jpg"
+					"file-name": "teddy_harvia-loscon_art_300.jpg"
 				}
 			},
 			{
-				"resource-name": "teddy-harvia-Headshot.jpg",
+				"resource-name": "teddy_harvia-Headshot.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "teddy-harvia-Headshot.jpg"
+					"file-name": "teddy_harvia-Headshot.jpg"
 				}
 			},
 			{
-				"resource-name": "teddy-harvia-Supermarine_Carousel_300.jpg",
+				"resource-name": "teddy_harvia-Supermarine_Carousel_300.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "teddy-harvia-Supermarine_Carousel_300.jpg"
+					"file-name": "teddy_harvia-Supermarine_Carousel_300.jpg"
 				}
 			},
 			{
-				"resource-name": "teddy-harvia-Submarine_Carousel_300.jpg",
+				"resource-name": "teddy_harvia-Submarine_Carousel_300.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "teddy-harvia-Submarine_Carousel_300.jpg"
+					"file-name": "teddy_harvia-Submarine_Carousel_300.jpg"
 				}
 			}
 		],
@@ -82,7 +82,7 @@
 					"object": "artshow.art-panel-19,20-1",
 					"data": [
 						{
-							"place-name": "teddy-harvia-art",
+							"place-name": "teddy_harvia-art",
 							"options": {
 								"placer": "ArtPlacer",
 								"moreInfoData": {
@@ -95,22 +95,22 @@
 							"data": {
 								"textures": [
 									{
-										"texture": "teddy-harvia-nameplate.png",
+										"texture": "teddy_harvia-nameplate.png",
 										"size": [1.10, 0.11],
 										"position": [0.05, 0.04]
 									},
 									{
-										"texture": "teddy-harvia-colossal-squid.png",
+										"texture": "teddy_harvia-colossal-squid.png",
 										"size": [1.1, 0.35],
 										"position": [0.05, 0.20]
 									},
 									{
-										"texture": "teddy-harvia-loscon_art_300.jpg",
+										"texture": "teddy_harvia-loscon_art_300.jpg",
 										"size": [0.5, 0.73],
 										"position": [0.05, 0.70]
 									},
 									{
-										"texture": "teddy-harvia-Headshot.jpg",
+										"texture": "teddy_harvia-Headshot.jpg",
 										"size": [0.3, 0.3],
 										"position": [0.75, 0.70]
 									}
@@ -124,7 +124,7 @@
 					"object": "artshow.art-panel-19,20-0",
 					"data": [
 						{
-							"place-name": "teddy-harvia-art",
+							"place-name": "teddy_harvia-art",
 							"options": {
 								"placer": "ArtPlacer",
 								"moreInfoData": {
@@ -137,12 +137,12 @@
 							"data": {
 								"textures": [
 									{
-										"texture": "teddy-harvia-Supermarine_Carousel_300.jpg",
+										"texture": "teddy_harvia-Supermarine_Carousel_300.jpg",
 										"size": [0.5, 0.66],
 										"position": [0.05, 0.20]
 									},
 									{
-										"texture": "teddy-harvia-Submarine_Carousel_300.jpg",
+										"texture": "teddy_harvia-Submarine_Carousel_300.jpg",
 										"size": [0.5, 0.66],
 										"position": [0.65, 0.20]
 									}

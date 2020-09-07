@@ -9,24 +9,24 @@
 	"resources": {
 		"textures": [
 			{
-				"resource-name": "marc-schirmeister-nameplate.png",
+				"resource-name": "marc_schirmeister-nameplate.png",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "marc-schirmeister-nameplate.png"
+					"file-name": "marc_schirmeister-nameplate.png"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "marc-schirmeister-chunga-09-front.jpg",
+				"resource-name": "marc_schirmeister-chunga-09-front.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "marc-schirmeister-chunga-09-front.jpg"
+					"file-name": "marc_schirmeister-chunga-09-front.jpg"
 				},
 				"options": {
 					"loader": "default"
@@ -46,7 +46,7 @@
 					"object": "artshow.art-panel-11,12-1",
 					"data": [
 						{
-							"place-name": "marc-schirmeister-art",
+							"place-name": "marc_schirmeister-art",
 							"options": {
 								"placer": "ArtPlacer",
 								"moreInfoData": {
@@ -59,12 +59,12 @@
 							"data": {
 								"textures": [
 									{
-										"texture": "marc-schirmeister-nameplate.png",
+										"texture": "marc_schirmeister-nameplate.png",
 										"size": [1.10, 0.11],
 										"position": [0.05, 0.04]
 									},
 									{
-										"texture": "marc-schirmeister-chunga-09-front.jpg",
+										"texture": "marc_schirmeister-chunga-09-front.jpg",
 										"size": [0.5, 0.65],
 										"position": [0.05, 0.20]
 									}

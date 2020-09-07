@@ -2,22 +2,22 @@ var artshow_brian_parker = (function(){
 
    return {
       textures: {
-         "brian-parker-nameplate.png": {
+         "brian_parker-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "brian-parker-nameplate.png"
+                  "file-name": "brian_parker-nameplate.png"
                }
          },
-         "Brian-Parker-Beam13.jpg": {
+         "brian_parker-Beam13.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "Brian-Parker-Beam13.jpg"
+                  "file-name": "brian_parker-Beam13.jpg"
                }
          },},
       materials: {},
@@ -33,7 +33,7 @@ var artshow_brian_parker = (function(){
                   "object": "artshow.art-panel-11,12-1",
                   "data": [
                      {
-                        "place-name": "brian-parker-art",
+                        "place-name": "brian_parker-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -46,7 +46,7 @@ var artshow_brian_parker = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "brian-parker-nameplate.png",
+                                 "texture": "brian_parker-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -57,7 +57,7 @@ var artshow_brian_parker = (function(){
                                  ]
                               },
                               {
-                                 "texture": "Brian-Parker-Beam13.jpg",
+                                 "texture": "brian_parker-Beam13.jpg",
                                  "size": [
                                     0.5,
                                     0.65

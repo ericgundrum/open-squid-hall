@@ -9,24 +9,24 @@
 	"resources": {
 		"textures": [
 			{
-				"resource-name": "brian-parker-nameplate.png",
+				"resource-name": "brian_parker-nameplate.png",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "brian-parker-nameplate.png"
+					"file-name": "brian_parker-nameplate.png"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "Brian-Parker-Beam13.jpg",
+				"resource-name": "brian_parker-Beam13.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "Brian-Parker-Beam13.jpg"
+					"file-name": "brian_parker-Beam13.jpg"
 				},
 				"options": {
 					"loader": "default"
@@ -46,7 +46,7 @@
 					"object": "artshow.art-panel-11,12-1",
 					"data": [
 						{
-							"place-name": "brian-parker-art",
+							"place-name": "brian_parker-art",
 							"options": {
 								"placer": "ArtPlacer",
 								"moreInfoData": {
@@ -59,12 +59,12 @@
 							"data": {
 								"textures": [
 									{
-										"texture": "brian-parker-nameplate.png",
+										"texture": "brian_parker-nameplate.png",
 										"size": [1.10, 0.11],
 										"position": [0.05, 0.04]
 									},
 									{
-										"texture": "Brian-Parker-Beam13.jpg",
+										"texture": "brian_parker-Beam13.jpg",
 										"size": [0.5, 0.65],
 										"position": [0.05, 0.20]
 									}

@@ -2,85 +2,85 @@ var artshow_steve_stiles = (function(){
 
    return {
       textures: {
-         "steve-stiles-nameplate.png": {
+         "steve_stiles-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "steve-stiles-nameplate.png"
+                  "file-name": "steve_stiles-nameplate.png"
                }
          },
-         "steve-stiles-chunga-14-back.jpg": {
+         "steve_stiles-chunga-14-back.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "steve-stiles-chunga-14-back.jpg"
+                  "file-name": "steve_stiles-chunga-14-back.jpg"
                }
          },
-         "steve-stiles-chunga-21-front.jpg": {
+         "steve_stiles-chunga-21-front.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "steve-stiles-chunga-21-front.jpg"
+                  "file-name": "steve_stiles-chunga-21-front.jpg"
                }
          },
-         "steve-stiles-File770-164.jpg": {
+         "steve_stiles-File770-164.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "steve-stiles-File770-164.jpg"
+                  "file-name": "steve_stiles-File770-164.jpg"
                }
          },
-         "steve-stiles-Inca10.jpg": {
+         "steve_stiles-Inca10.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "steve-stiles-Inca10.jpg"
+                  "file-name": "steve_stiles-Inca10.jpg"
                }
          },
-         "steve-stiles-Inca12.jpg": {
+         "steve_stiles-Inca12.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "steve-stiles-Inca12.jpg"
+                  "file-name": "steve_stiles-Inca12.jpg"
                }
          },
-         "steve-stiles-trap-door-26.jpg": {
+         "steve_stiles-trap-door-26.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "steve-stiles-trap-door-26.jpg"
+                  "file-name": "steve_stiles-trap-door-26.jpg"
                }
          },
-         "steve-stiles-trap-door-28.jpg": {
+         "steve_stiles-trap-door-28.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "steve-stiles-trap-door-28.jpg"
+                  "file-name": "steve_stiles-trap-door-28.jpg"
                }
          },
-         "steve-stiles-trap-door-31.jpg": {
+         "steve_stiles-trap-door-31.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "steve-stiles-trap-door-31.jpg"
+                  "file-name": "steve_stiles-trap-door-31.jpg"
                }
          },},
       materials: {},
@@ -96,7 +96,7 @@ var artshow_steve_stiles = (function(){
                   "object": "artshow.art-panel-13,14-0",
                   "data": [
                      {
-                        "place-name": "steve-stiles-art",
+                        "place-name": "steve_stiles-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -109,7 +109,7 @@ var artshow_steve_stiles = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "steve-stiles-nameplate.png",
+                                 "texture": "steve_stiles-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -120,7 +120,7 @@ var artshow_steve_stiles = (function(){
                                  ]
                               },
                               {
-                                 "texture": "steve-stiles-chunga-14-back.jpg",
+                                 "texture": "steve_stiles-chunga-14-back.jpg",
                                  "size": [
                                     0.5,
                                     0.65
@@ -131,7 +131,7 @@ var artshow_steve_stiles = (function(){
                                  ]
                               },
                               {
-                                 "texture": "steve-stiles-chunga-21-front.jpg",
+                                 "texture": "steve_stiles-chunga-21-front.jpg",
                                  "size": [
                                     0.5,
                                     0.65
@@ -142,7 +142,7 @@ var artshow_steve_stiles = (function(){
                                  ]
                               },
                               {
-                                 "texture": "steve-stiles-File770-164.jpg",
+                                 "texture": "steve_stiles-File770-164.jpg",
                                  "size": [
                                     0.5,
                                     0.65
@@ -153,7 +153,7 @@ var artshow_steve_stiles = (function(){
                                  ]
                               },
                               {
-                                 "texture": "steve-stiles-trap-door-28.jpg",
+                                 "texture": "steve_stiles-trap-door-28.jpg",
                                  "size": [
                                     0.42,
                                     0.65
@@ -173,7 +173,7 @@ var artshow_steve_stiles = (function(){
                   "object": "artshow.art-panel-13,14-1",
                   "data": [
                      {
-                        "place-name": "steve-stiles-art",
+                        "place-name": "steve_stiles-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -186,7 +186,7 @@ var artshow_steve_stiles = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "steve-stiles-Inca10.jpg",
+                                 "texture": "steve_stiles-Inca10.jpg",
                                  "size": [
                                     0.46,
                                     0.65
@@ -197,7 +197,7 @@ var artshow_steve_stiles = (function(){
                                  ]
                               },
                               {
-                                 "texture": "steve-stiles-Inca12.jpg",
+                                 "texture": "steve_stiles-Inca12.jpg",
                                  "size": [
                                     0.46,
                                     0.65
@@ -208,7 +208,7 @@ var artshow_steve_stiles = (function(){
                                  ]
                               },
                               {
-                                 "texture": "steve-stiles-trap-door-26.jpg",
+                                 "texture": "steve_stiles-trap-door-26.jpg",
                                  "size": [
                                     0.41,
                                     0.65
@@ -219,7 +219,7 @@ var artshow_steve_stiles = (function(){
                                  ]
                               },
                               {
-                                 "texture": "steve-stiles-trap-door-31.jpg",
+                                 "texture": "steve_stiles-trap-door-31.jpg",
                                  "size": [
                                     0.41,
                                     0.65

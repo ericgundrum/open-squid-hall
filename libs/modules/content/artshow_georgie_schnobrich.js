@@ -2,38 +2,38 @@ var artshow_georgie_schnobrich = (function(){
 
    return {
       textures: {
-         "georgie-schnobrich-nameplate.png": {
+         "georgie_schnobrich-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "georgie-schnobrich-nameplate.png"
+                  "file-name": "georgie_schnobrich-nameplate.png"
                }
          },
-         "georgie-schnobrich-2003-tiptree-ceremony.jpg": {
+         "georgie_schnobrich-2003-tiptree-ceremony.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "georgie-schnobrich-2003-tiptree-ceremony.jpg"
+                  "file-name": "georgie_schnobrich-2003-tiptree-ceremony.jpg"
                }
          },
-         "georgie-schnobrich-Forbidden Pasture.jpg": {
+         "georgie_schnobrich-Forbidden Pasture.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "georgie-schnobrich-Forbidden Pasture.jpg"
+                  "file-name": "georgie_schnobrich-Forbidden Pasture.jpg"
                }
          },
-         "georgie-schnobrich-chunga-03.jpg": {
+         "georgie_schnobrich-chunga-03.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "georgie-schnobrich-chunga-03.jpg"
+                  "file-name": "georgie_schnobrich-chunga-03.jpg"
                }
          },},
       materials: {},
@@ -49,7 +49,7 @@ var artshow_georgie_schnobrich = (function(){
                   "object": "artshow.art-panel-15,16-0",
                   "data": [
                      {
-                        "place-name": "georgie-schnobrich-art",
+                        "place-name": "georgie_schnobrich-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -62,7 +62,7 @@ var artshow_georgie_schnobrich = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "georgie-schnobrich-nameplate.png",
+                                 "texture": "georgie_schnobrich-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -73,7 +73,7 @@ var artshow_georgie_schnobrich = (function(){
                                  ]
                               },
                               {
-                                 "texture": "georgie-schnobrich-2003-tiptree-ceremony.jpg",
+                                 "texture": "georgie_schnobrich-2003-tiptree-ceremony.jpg",
                                  "size": [
                                     1.0,
                                     0.74
@@ -84,7 +84,7 @@ var artshow_georgie_schnobrich = (function(){
                                  ]
                               },
                               {
-                                 "texture": "georgie-schnobrich-chunga-03.jpg",
+                                 "texture": "georgie_schnobrich-chunga-03.jpg",
                                  "size": [
                                     0.5,
                                     0.65
@@ -95,7 +95,7 @@ var artshow_georgie_schnobrich = (function(){
                                  ]
                               },
                               {
-                                 "texture": "georgie-schnobrich-Forbidden Pasture.jpg",
+                                 "texture": "georgie_schnobrich-Forbidden Pasture.jpg",
                                  "size": [
                                     0.5,
                                     0.39

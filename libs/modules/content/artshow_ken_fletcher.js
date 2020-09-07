@@ -2,31 +2,31 @@ var artshow_ken_fletcher = (function(){
 
    return {
       textures: {
-         "ken-fletcher-nameplate.png": {
+         "ken_fletcher-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "ken-fletcher-nameplate.png"
+                  "file-name": "ken_fletcher-nameplate.png"
                }
          },
-         "ken-fletcher-SaFA.jpg": {
+         "ken_fletcher-SaFA.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "ken-fletcher-SaFA.jpg"
+                  "file-name": "ken_fletcher-SaFA.jpg"
                }
          },
-         "ken-fletcher-vacuum.jpg": {
+         "ken_fletcher-vacuum.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "ken-fletcher-vacuum.jpg"
+                  "file-name": "ken_fletcher-vacuum.jpg"
                }
          },},
       materials: {},
@@ -42,7 +42,7 @@ var artshow_ken_fletcher = (function(){
                   "object": "artshow.art-panel-11,12-0",
                   "data": [
                      {
-                        "place-name": "ken-fletcher-art",
+                        "place-name": "ken_fletcher-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -55,7 +55,7 @@ var artshow_ken_fletcher = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "ken-fletcher-nameplate.png",
+                                 "texture": "ken_fletcher-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -66,7 +66,7 @@ var artshow_ken_fletcher = (function(){
                                  ]
                               },
                               {
-                                 "texture": "ken-fletcher-SaFA.jpg",
+                                 "texture": "ken_fletcher-SaFA.jpg",
                                  "size": [
                                     0.5,
                                     0.65
@@ -77,7 +77,7 @@ var artshow_ken_fletcher = (function(){
                                  ]
                               },
                               {
-                                 "texture": "ken-fletcher-vacuum.jpg",
+                                 "texture": "ken_fletcher-vacuum.jpg",
                                  "size": [
                                     0.5,
                                     0.23

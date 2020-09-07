@@ -2,30 +2,30 @@ var artshow_alison_scott = (function(){
 
    return {
       textures: {
-         "alison-scott-nameplate.png": {
+         "alison_scott-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "alison-scott-nameplate.png"
+                  "file-name": "alison_scott-nameplate.png"
                }
          },
-         "alison-scott-plokta-33.jpg": {
+         "alison_scott-plokta-33.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "alison-scott-plokta-33.jpg"
+                  "file-name": "alison_scott-plokta-33.jpg"
                }
          },
-         "alison-scott-plokta-37.jpg": {
+         "alison_scott-plokta-37.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "alison-scott-plokta-37.jpg"
+                  "file-name": "alison_scott-plokta-37.jpg"
                }
          },},
       materials: {},
@@ -41,7 +41,7 @@ var artshow_alison_scott = (function(){
                   "object": "artshow.art-panel-1,2-0",
                   "data": [
                      {
-                        "place-name": "alison-scott-art",
+                        "place-name": "alison_scott-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -54,7 +54,7 @@ var artshow_alison_scott = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "alison-scott-nameplate.png",
+                                 "texture": "alison_scott-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -65,7 +65,7 @@ var artshow_alison_scott = (function(){
                                  ]
                               },
                               {
-                                 "texture": "alison-scott-plokta-37.jpg",
+                                 "texture": "alison_scott-plokta-37.jpg",
                                  "size": [
                                     0.5,
                                     0.71
@@ -76,7 +76,7 @@ var artshow_alison_scott = (function(){
                                  ]
                               },
                               {
-                                 "texture": "alison-scott-plokta-33.jpg",
+                                 "texture": "alison_scott-plokta-33.jpg",
                                  "size": [
                                     0.5,
                                     0.71

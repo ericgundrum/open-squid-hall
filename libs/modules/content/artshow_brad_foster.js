@@ -2,31 +2,31 @@ var artshow_brad_foster = (function(){
 
    return {
       textures: {
-         "brad-foster-nameplate.png": {
+         "brad_foster-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "brad-foster-nameplate.png"
+                  "file-name": "brad_foster-nameplate.png"
                }
          },
-         "brad-foster-chunga-07-front.jpg": {
+         "brad_foster-chunga-07-front.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "brad-foster-chunga-07-front.jpg"
+                  "file-name": "brad_foster-chunga-07-front.jpg"
                }
          },
-         "brad-foster-trap-door-27.jpg": {
+         "brad_foster-trap-door-27.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "brad-foster-trap-door-27.jpg"
+                  "file-name": "brad_foster-trap-door-27.jpg"
                }
          },},
       materials: {},
@@ -42,7 +42,7 @@ var artshow_brad_foster = (function(){
                   "object": "artshow.art-panel-3,4-0",
                   "data": [
                      {
-                        "place-name": "brad-foster-art",
+                        "place-name": "brad_foster-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -55,7 +55,7 @@ var artshow_brad_foster = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "brad-foster-nameplate.png",
+                                 "texture": "brad_foster-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -66,7 +66,7 @@ var artshow_brad_foster = (function(){
                                  ]
                               },
                               {
-                                 "texture": "brad-foster-chunga-07-front.jpg",
+                                 "texture": "brad_foster-chunga-07-front.jpg",
                                  "size": [
                                     0.5,
                                     0.71
@@ -77,7 +77,7 @@ var artshow_brad_foster = (function(){
                                  ]
                               },
                               {
-                                 "texture": "brad-foster-trap-door-27.jpg",
+                                 "texture": "brad_foster-trap-door-27.jpg",
                                  "size": [
                                     0.42,
                                     0.65

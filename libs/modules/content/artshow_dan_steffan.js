@@ -2,70 +2,70 @@ var artshow_dan_steffan = (function(){
 
    return {
       textures: {
-         "dan-steffan-nameplate.png": {
+         "dan_steffan-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "dan-steffan-nameplate.png"
+                  "file-name": "dan_steffan-nameplate.png"
                }
          },
-         "dan-steffan-Banana-Wings-50.jpg": {
+         "dan_steffan-Banana-Wings-50.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "dan-steffan-Banana-Wings-50.jpg"
+                  "file-name": "dan_steffan-Banana-Wings-50.jpg"
                }
          },
-         "dan-steffan-chung-11-front.jpg": {
+         "dan_steffan-chung-11-front.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "dan-steffan-chung-11-front.jpg"
+                  "file-name": "dan_steffan-chung-11-front.jpg"
                }
          },
-         "dan-steffan-chunga-14-front.jpg": {
+         "dan_steffan-chunga-14-front.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "dan-steffan-chunga-14-front.jpg"
+                  "file-name": "dan_steffan-chunga-14-front.jpg"
                }
          },
-         "dan-steffan-Inca08.jpg": {
+         "dan_steffan-Inca08.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "dan-steffan-Inca08.jpg"
+                  "file-name": "dan_steffan-Inca08.jpg"
                }
          },
-         "dan-steffan-trap-door-22.jpg": {
+         "dan_steffan-trap-door-22.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "dan-steffan-trap-door-22.jpg"
+                  "file-name": "dan_steffan-trap-door-22.jpg"
                }
          },
-         "dan-steffan-trap-door-23.jpg": {
+         "dan_steffan-trap-door-23.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "dan-steffan-trap-door-23.jpg"
+                  "file-name": "dan_steffan-trap-door-23.jpg"
                }
          },
-         "dan-steffan-trap-door-30.jpg": {
+         "dan_steffan-trap-door-30.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "dan-steffan-trap-door-30.jpg"
+                  "file-name": "dan_steffan-trap-door-30.jpg"
                }
          },},
       materials: {},
@@ -81,7 +81,7 @@ var artshow_dan_steffan = (function(){
                   "object": "artshow.art-panel-1,2-0",
                   "data": [
                      {
-                        "place-name": "dan-steffan-art",
+                        "place-name": "dan_steffan-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -94,7 +94,7 @@ var artshow_dan_steffan = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "dan-steffan-nameplate.png",
+                                 "texture": "dan_steffan-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -105,7 +105,7 @@ var artshow_dan_steffan = (function(){
                                  ]
                               },
                               {
-                                 "texture": "dan-steffan-Banana-Wings-50.jpg",
+                                 "texture": "dan_steffan-Banana-Wings-50.jpg",
                                  "size": [
                                     1.1,
                                     0.78
@@ -116,7 +116,7 @@ var artshow_dan_steffan = (function(){
                                  ]
                               },
                               {
-                                 "texture": "dan-steffan-chung-11-front.jpg",
+                                 "texture": "dan_steffan-chung-11-front.jpg",
                                  "size": [
                                     0.5,
                                     0.65
@@ -127,7 +127,7 @@ var artshow_dan_steffan = (function(){
                                  ]
                               },
                               {
-                                 "texture": "dan-steffan-chunga-14-front.jpg",
+                                 "texture": "dan_steffan-chunga-14-front.jpg",
                                  "size": [
                                     0.5,
                                     0.65
@@ -147,7 +147,7 @@ var artshow_dan_steffan = (function(){
                   "object": "artshow.art-panel-1,2-1",
                   "data": [
                      {
-                        "place-name": "dan-steffan-art",
+                        "place-name": "dan_steffan-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -160,7 +160,7 @@ var artshow_dan_steffan = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "dan-steffan-Inca08.jpg",
+                                 "texture": "dan_steffan-Inca08.jpg",
                                  "size": [
                                     0.5,
                                     0.71
@@ -171,7 +171,7 @@ var artshow_dan_steffan = (function(){
                                  ]
                               },
                               {
-                                 "texture": "dan-steffan-trap-door-22.jpg",
+                                 "texture": "dan_steffan-trap-door-22.jpg",
                                  "size": [
                                     0.42,
                                     0.65
@@ -182,7 +182,7 @@ var artshow_dan_steffan = (function(){
                                  ]
                               },
                               {
-                                 "texture": "dan-steffan-trap-door-23.jpg",
+                                 "texture": "dan_steffan-trap-door-23.jpg",
                                  "size": [
                                     0.42,
                                     0.65
@@ -193,7 +193,7 @@ var artshow_dan_steffan = (function(){
                                  ]
                               },
                               {
-                                 "texture": "dan-steffan-trap-door-30.jpg",
+                                 "texture": "dan_steffan-trap-door-30.jpg",
                                  "size": [
                                     0.42,
                                     0.65

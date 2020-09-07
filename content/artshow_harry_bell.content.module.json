@@ -9,48 +9,48 @@
 	"resources": {
 		"textures": [
 			{
-				"resource-name": "harry-bell-nameplate.png",
+				"resource-name": "harry_bell-nameplate.png",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "harry-bell-nameplate.png"
+					"file-name": "harry_bell-nameplate.png"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "harry-bell-Inca09L.jpg",
+				"resource-name": "harry_bell-Inca09L.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "harry-bell-Inca09L.jpg"
+					"file-name": "harry_bell-Inca09L.jpg"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "harry-bell-trap-door-25.jpg",
+				"resource-name": "harry_bell-trap-door-25.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "harry-bell-trap-door-25.jpg"
+					"file-name": "harry_bell-trap-door-25.jpg"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "harry-bell-trap-door-29.jpg",
+				"resource-name": "harry_bell-trap-door-29.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "harry-bell-trap-door-29.jpg"
+					"file-name": "harry_bell-trap-door-29.jpg"
 				},
 				"options": {
 					"loader": "default"
@@ -70,7 +70,7 @@
 					"object": "artshow.art-panel-9,10-0",
 					"data": [
 						{
-							"place-name": "harry-bell-art",
+							"place-name": "harry_bell-art",
 							"options": {
 								"placer": "ArtPlacer",
 								"moreInfoData": {
@@ -83,22 +83,22 @@
 							"data": {
 								"textures": [
 									{
-										"texture": "harry-bell-nameplate.png",
+										"texture": "harry_bell-nameplate.png",
 										"size": [1.10, 0.11],
 										"position": [0.05, 0.04]
 									},
 									{
-										"texture": "harry-bell-Inca09L.jpg",
+										"texture": "harry_bell-Inca09L.jpg",
 										"size": [0.5, 0.70],
 										"position": [0.05, 0.20]
 									},
 									{
-										"texture": "harry-bell-trap-door-25.jpg",
+										"texture": "harry_bell-trap-door-25.jpg",
 										"size": [0.41, 0.65],
 										"position": [0.09, 1.0]
 									},
 									{
-										"texture": "harry-bell-trap-door-29.jpg",
+										"texture": "harry_bell-trap-door-29.jpg",
 										"size": [0.41, 0.65],
 										"position": [0.69, 1.0]
 									}

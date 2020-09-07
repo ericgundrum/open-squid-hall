@@ -9,24 +9,24 @@
 	"resources": {
 		"textures": [
 			{
-				"resource-name": "graham-west-nameplate.png",
+				"resource-name": "graham_west-nameplate.png",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "graham-west-nameplate.png"
+					"file-name": "graham_west-nameplate.png"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "graham-west-RubberCrab-08.jpg",
+				"resource-name": "graham_west-RubberCrab-08.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "graham-west-RubberCrab-08.jpg"
+					"file-name": "graham_west-RubberCrab-08.jpg"
 				},
 				"options": {
 					"loader": "default"
@@ -46,7 +46,7 @@
 					"object": "artshow.art-panel-9,10-1",
 					"data": [
 						{
-							"place-name": "graham-west-art",
+							"place-name": "graham_west-art",
 							"options": {
 								"placer": "ArtPlacer",
 								"moreInfoData": {
@@ -59,12 +59,12 @@
 							"data": {
 								"textures": [
 									{
-										"texture": "graham-west-nameplate.png",
+										"texture": "graham_west-nameplate.png",
 										"size": [1.10, 0.11],
 										"position": [0.05, 0.04]
 									},
 									{
-										"texture": "graham-west-RubberCrab-08.jpg",
+										"texture": "graham_west-RubberCrab-08.jpg",
 										"size": [0.5, 0.71],
 										"position": [0.05, 0.20]
 									}

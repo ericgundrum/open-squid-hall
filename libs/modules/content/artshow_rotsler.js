@@ -1,4 +1,4 @@
-var artshow_william_rotsler = (function(){
+var artshow_rotsler = (function(){
 
    return {
       textures: {
@@ -33,12 +33,12 @@ var artshow_william_rotsler = (function(){
                   "object": "artshow.art-panel-17,18-1",
                   "data": [
                      {
-                        "place-name": "william-rotsler-art",
+                        "place-name": "rotsler-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
-                              "title": "William Rotsler",
-                              "link-text": "More about William Rotsler",
+                              "title": "Bill Rotsler",
+                              "link-text": "More about Bill Rotsler",
                               "link": "http://fancyclopedia.org/Bill_Rotsler",
                               "text": ""
                            }
@@ -78,4 +78,4 @@ var artshow_william_rotsler = (function(){
       }
    };
 })();
-SQUIDSPACE.addAutoloadModule(artshow_william_rotsler);
+SQUIDSPACE.addAutoloadModule(artshow_rotsler);

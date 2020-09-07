@@ -9,42 +9,42 @@
 	"resources": {
 		"textures": [
 			{
-				"resource-name": "taral-wayne-nameplate.png",
+				"resource-name": "taral_wayne-nameplate.png",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "taral-wayne-nameplate.png"
+					"file-name": "taral_wayne-nameplate.png"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "taral-wayne-Anticipation PR 4.jpg",
+				"resource-name": "taral_wayne-Anticipation PR 4.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "taral-wayne-Anticipation PR 4.jpg"
+					"file-name": "taral_wayne-Anticipation PR 4.jpg"
 				}
 			},
 			{
-				"resource-name": "taral-wayne-ToWalkThe Moon.jpg",
+				"resource-name": "taral_wayne-ToWalkThe Moon.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "taral-wayne-ToWalkThe Moon.jpg"
+					"file-name": "taral_wayne-ToWalkThe Moon.jpg"
 				}
 			},
 			{
-				"resource-name": "taral-wayne-Unloading the P.F. Gotlieb.jpg",
+				"resource-name": "taral_wayne-Unloading the P.F. Gotlieb.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "taral-wayne-Unloading the P.F. Gotlieb.jpg"
+					"file-name": "taral_wayne-Unloading the P.F. Gotlieb.jpg"
 				}
 			}
 		],
@@ -61,7 +61,7 @@
 					"object": "artshow.art-panel-5,6-1",
 					"data": [
 						{
-							"place-name": "taral-wayne-art",
+							"place-name": "taral_wayne-art",
 							"options": {
 								"placer": "ArtPlacer",
 								"moreInfoData": {
@@ -74,22 +74,22 @@
 							"data": {
 								"textures": [
 									{
-										"texture": "taral-wayne-nameplate.png",
+										"texture": "taral_wayne-nameplate.png",
 										"size": [1.10, 0.11],
 										"position": [0.05, 0.04]
 									},
 									{
-										"texture": "taral-wayne-Anticipation PR 4.jpg",
+										"texture": "taral_wayne-Anticipation PR 4.jpg",
 										"size": [0.81, 0.65],
 										"position": [0.05, 0.20]
 									},
 									{
-										"texture": "taral-wayne-ToWalkThe Moon.jpg",
+										"texture": "taral_wayne-ToWalkThe Moon.jpg",
 										"size": [0.5, 0.65],
 										"position": [0.05, 1.00]
 									},
 									{
-										"texture": "taral-wayne-Unloading the P.F. Gotlieb.jpg",
+										"texture": "taral_wayne-Unloading the P.F. Gotlieb.jpg",
 										"size": [0.5, 0.65],
 										"position": [0.65, 1.00]
 									}

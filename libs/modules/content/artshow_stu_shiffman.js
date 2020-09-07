@@ -2,30 +2,30 @@ var artshow_stu_shiffman = (function(){
 
    return {
       textures: {
-         "stu-shiffman-nameplate.png": {
+         "stu_shiffman-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "stu-shiffman-nameplate.png"
+                  "file-name": "stu_shiffman-nameplate.png"
                }
          },
-         "stu-shiffman-chunga-01-front.jpg": {
+         "stu_shiffman-chunga-01-front.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "stu-shiffman-chunga-01-front.jpg"
+                  "file-name": "stu_shiffman-chunga-01-front.jpg"
                }
          },
-         "stu-shiffman-chunga-11-back.jpg": {
+         "stu_shiffman-chunga-11-back.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "stu-shiffman-chunga-11-back.jpg"
+                  "file-name": "stu_shiffman-chunga-11-back.jpg"
                }
          },},
       materials: {},
@@ -41,7 +41,7 @@ var artshow_stu_shiffman = (function(){
                   "object": "artshow.art-panel-3,4-1",
                   "data": [
                      {
-                        "place-name": "stu-shiffman-art",
+                        "place-name": "stu_shiffman-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -54,7 +54,7 @@ var artshow_stu_shiffman = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "stu-shiffman-nameplate.png",
+                                 "texture": "stu_shiffman-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -65,7 +65,7 @@ var artshow_stu_shiffman = (function(){
                                  ]
                               },
                               {
-                                 "texture": "stu-shiffman-chunga-01-front.jpg",
+                                 "texture": "stu_shiffman-chunga-01-front.jpg",
                                  "size": [
                                     0.5,
                                     0.65
@@ -76,7 +76,7 @@ var artshow_stu_shiffman = (function(){
                                  ]
                               },
                               {
-                                 "texture": "stu-shiffman-chunga-11-back.jpg",
+                                 "texture": "stu_shiffman-chunga-11-back.jpg",
                                  "size": [
                                     0.5,
                                     0.65

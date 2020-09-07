@@ -2,30 +2,30 @@ var artshow_sue_mason = (function(){
 
    return {
       textures: {
-         "sue-mason-nameplate.png": {
+         "sue_mason-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "sue-mason-nameplate.png"
+                  "file-name": "sue_mason-nameplate.png"
                }
          },
-         "sue-mason-plokta-19.jpg": {
+         "sue_mason-plokta-19.jpg": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "sue-mason-plokta-19.jpg"
+                  "file-name": "sue_mason-plokta-19.jpg"
                }
          },
-         "sue-mason-plokta-39.jpg": {
+         "sue_mason-plokta-39.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "sue-mason-plokta-39.jpg"
+                  "file-name": "sue_mason-plokta-39.jpg"
                }
          },},
       materials: {},
@@ -41,7 +41,7 @@ var artshow_sue_mason = (function(){
                   "object": "artshow.art-panel-3,4-0",
                   "data": [
                      {
-                        "place-name": "sue-mason-art",
+                        "place-name": "sue_mason-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -54,7 +54,7 @@ var artshow_sue_mason = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "sue-mason-nameplate.png",
+                                 "texture": "sue_mason-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -65,7 +65,7 @@ var artshow_sue_mason = (function(){
                                  ]
                               },
                               {
-                                 "texture": "sue-mason-plokta-19.jpg",
+                                 "texture": "sue_mason-plokta-19.jpg",
                                  "size": [
                                     0.5,
                                     0.72
@@ -76,7 +76,7 @@ var artshow_sue_mason = (function(){
                                  ]
                               },
                               {
-                                 "texture": "sue-mason-plokta-39.jpg",
+                                 "texture": "sue_mason-plokta-39.jpg",
                                  "size": [
                                     0.5,
                                     0.71

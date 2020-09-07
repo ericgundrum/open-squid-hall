@@ -9,36 +9,36 @@
 	"resources": {
 		"textures": [
 			{
-				"resource-name": "sue-mason-nameplate.png",
+				"resource-name": "sue_mason-nameplate.png",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "sue-mason-nameplate.png"
+					"file-name": "sue_mason-nameplate.png"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "sue-mason-plokta-19.jpg",
+				"resource-name": "sue_mason-plokta-19.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "sue-mason-plokta-19.jpg"
+					"file-name": "sue_mason-plokta-19.jpg"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "sue-mason-plokta-39.jpg",
+				"resource-name": "sue_mason-plokta-39.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "sue-mason-plokta-39.jpg"
+					"file-name": "sue_mason-plokta-39.jpg"
 				}
 			}
 		],
@@ -55,7 +55,7 @@
 					"object": "artshow.art-panel-3,4-0",
 					"data": [
 						{
-							"place-name": "sue-mason-art",
+							"place-name": "sue_mason-art",
 							"options": {
 								"placer": "ArtPlacer",
 								"moreInfoData": {
@@ -68,17 +68,17 @@
 							"data": {
 								"textures": [
 									{
-										"texture": "sue-mason-nameplate.png",
+										"texture": "sue_mason-nameplate.png",
 										"size": [1.10, 0.11],
 										"position": [0.05, 0.04]
 									},
 									{
-										"texture": "sue-mason-plokta-19.jpg",
+										"texture": "sue_mason-plokta-19.jpg",
 										"size": [0.5, 0.72],
 										"position": [0.05, 0.20]
 									},
 									{
-										"texture": "sue-mason-plokta-39.jpg",
+										"texture": "sue_mason-plokta-39.jpg",
 										"size": [0.5, 0.71],
 										"position": [0.65, 0.20]
 									}

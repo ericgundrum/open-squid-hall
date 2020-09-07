@@ -9,36 +9,36 @@
 	"resources": {
 		"textures": [
 			{
-				"resource-name": "ken-fletcher-nameplate.png",
+				"resource-name": "ken_fletcher-nameplate.png",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "ken-fletcher-nameplate.png"
+					"file-name": "ken_fletcher-nameplate.png"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "ken-fletcher-SaFA.jpg",
+				"resource-name": "ken_fletcher-SaFA.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "ken-fletcher-SaFA.jpg"
+					"file-name": "ken_fletcher-SaFA.jpg"
 				},
 				"options": {
 					"loader": "default"
 				}
 			},
 			{
-				"resource-name": "ken-fletcher-vacuum.jpg",
+				"resource-name": "ken_fletcher-vacuum.jpg",
 				"config": {
 					"pack-options": {
 						"action": "link"
 					},
-					"file-name": "ken-fletcher-vacuum.jpg"
+					"file-name": "ken_fletcher-vacuum.jpg"
 				},
 				"options": {
 					"loader": "default"
@@ -58,7 +58,7 @@
 					"object": "artshow.art-panel-11,12-0",
 					"data": [
 						{
-							"place-name": "ken-fletcher-art",
+							"place-name": "ken_fletcher-art",
 							"options": {
 								"placer": "ArtPlacer",
 								"moreInfoData": {
@@ -71,17 +71,17 @@
 							"data": {
 								"textures": [
 									{
-										"texture": "ken-fletcher-nameplate.png",
+										"texture": "ken_fletcher-nameplate.png",
 										"size": [1.10, 0.11],
 										"position": [0.05, 0.04]
 									},
 									{
-										"texture": "ken-fletcher-SaFA.jpg",
+										"texture": "ken_fletcher-SaFA.jpg",
 										"size": [0.5, 0.65],
 										"position": [0.05, 0.20]
 									},
 									{
-										"texture": "ken-fletcher-vacuum.jpg",
+										"texture": "ken_fletcher-vacuum.jpg",
 										"size": [0.5, 0.23],
 										"position": [0.65, 0.40]
 									}

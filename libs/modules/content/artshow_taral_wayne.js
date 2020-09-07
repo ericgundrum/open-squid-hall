@@ -2,37 +2,37 @@ var artshow_taral_wayne = (function(){
 
    return {
       textures: {
-         "taral-wayne-nameplate.png": {
+         "taral_wayne-nameplate.png": {
                "options": {
                   "loader": "default"
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "taral-wayne-nameplate.png"
+                  "file-name": "taral_wayne-nameplate.png"
                }
          },
-         "taral-wayne-Anticipation PR 4.jpg": {
+         "taral_wayne-Anticipation PR 4.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "taral-wayne-Anticipation PR 4.jpg"
+                  "file-name": "taral_wayne-Anticipation PR 4.jpg"
                }
          },
-         "taral-wayne-ToWalkThe Moon.jpg": {
+         "taral_wayne-ToWalkThe Moon.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "taral-wayne-ToWalkThe Moon.jpg"
+                  "file-name": "taral_wayne-ToWalkThe Moon.jpg"
                }
          },
-         "taral-wayne-Unloading the P.F. Gotlieb.jpg": {
+         "taral_wayne-Unloading the P.F. Gotlieb.jpg": {
                "options": {
                },
                "data": {
                   "dir": "textures/content/artshow/",
-                  "file-name": "taral-wayne-Unloading the P.F. Gotlieb.jpg"
+                  "file-name": "taral_wayne-Unloading the P.F. Gotlieb.jpg"
                }
          },},
       materials: {},
@@ -48,7 +48,7 @@ var artshow_taral_wayne = (function(){
                   "object": "artshow.art-panel-5,6-1",
                   "data": [
                      {
-                        "place-name": "taral-wayne-art",
+                        "place-name": "taral_wayne-art",
                         "options": {
                            "placer": "ArtPlacer",
                            "moreInfoData": {
@@ -61,7 +61,7 @@ var artshow_taral_wayne = (function(){
                         "data": {
                            "textures": [
                               {
-                                 "texture": "taral-wayne-nameplate.png",
+                                 "texture": "taral_wayne-nameplate.png",
                                  "size": [
                                     1.1,
                                     0.11
@@ -72,7 +72,7 @@ var artshow_taral_wayne = (function(){
                                  ]
                               },
                               {
-                                 "texture": "taral-wayne-Anticipation PR 4.jpg",
+                                 "texture": "taral_wayne-Anticipation PR 4.jpg",
                                  "size": [
                                     0.81,
                                     0.65
@@ -83,7 +83,7 @@ var artshow_taral_wayne = (function(){
                                  ]
                               },
                               {
-                                 "texture": "taral-wayne-ToWalkThe Moon.jpg",
+                                 "texture": "taral_wayne-ToWalkThe Moon.jpg",
                                  "size": [
                                     0.5,
                                     0.65
@@ -94,7 +94,7 @@ var artshow_taral_wayne = (function(){
                                  ]
                               },
                               {
-                                 "texture": "taral-wayne-Unloading the P.F. Gotlieb.jpg",
+                                 "texture": "taral_wayne-Unloading the P.F. Gotlieb.jpg",
                                  "size": [
                                     0.5,
                                     0.65
