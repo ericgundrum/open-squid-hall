@@ -40,7 +40,7 @@ var artshow_brian_parker = (function(){
                               "title": "Brian Parker",
                               "link-text": "More about Brian Parker",
                               "link": "http://fancyclopedia.org/Brian_Parker",
-                              "text": ""
+                              "text": "Brian Parker won a 2019 FAAn Award for Best Cover (Illo)."
                            }
                         },
                         "data": {

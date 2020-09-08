@@ -56,7 +56,7 @@ var artshow_ulrika_obrien = (function(){
                               "title": "Ulrika O'Brien",
                               "link-text": "More about Ulrika O'Brien",
                               "link": "http://fancyclopedia.org/Ulrika_O%27Brien",
-                              "text": ""
+                              "text": "Ulrika O'Brien is an American fan artist, writer, editor and con runner. She was the 1998 TAFF delegate. She won a FAAn award for Best Cover Art for the cover of Thy Life's a Miracle."
                            }
                         },
                         "data": {

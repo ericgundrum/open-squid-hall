@@ -58,7 +58,7 @@ var artshow_harry_bell = (function(){
                               "title": "Harry Bell",
                               "link-text": "More about Harry Bell",
                               "link": "http://fancyclopedia.org/Harry_Bell",
-                              "text": ""
+                              "text": "Harry Bell is a UK fan artist. He is a Rotsler award winner, FAAn award winner, and has been a Hugo finalist."
                            }
                         },
                         "data": {

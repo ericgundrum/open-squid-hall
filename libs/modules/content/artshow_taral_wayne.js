@@ -55,7 +55,7 @@ var artshow_taral_wayne = (function(){
                               "title": "Taral Wayne",
                               "link-text": "More about Taral Wayne",
                               "link": "http://fancyclopedia.org/Taral_Wayne",
-                              "text": ""
+                              "text": "Taral Wayne is a Canadian fan artist, writer and editor. He has won the Rotsler award. He has been a Hugo finalist for Best Fan Artist several times. He is a Past-President of FWA."
                            }
                         },
                         "data": {

@@ -48,7 +48,7 @@ var artshow_ditmar = (function(){
                               "title": "Ditmar",
                               "link-text": "More about Ditmar",
                               "link": "http://fancyclopedia.org/Dick_Jenssen",
-                              "text": ""
+                              "text": "Ditmar (Dick) Jenssen is an Australian fan artist. The Ditmar Award is named after him. He has also won a couple of Ditmars, a FAAn award, and the Rotsler award."
                            }
                         },
                         "data": {

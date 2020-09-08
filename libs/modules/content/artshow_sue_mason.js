@@ -48,7 +48,7 @@ var artshow_sue_mason = (function(){
                               "title": "Sue Mason",
                               "link-text": "More about Sue Mason",
                               "link": "http://fancyclopedia.org/Sue_Mason",
-                              "text": ""
+                              "text": "Sue Mason is a UK fan artist and fan. She is a member of the PLOKTA cabal. She has won the Hugo Award for Best Fan Artist two times. She has won the Rotsler award. She was the 2000 TAFF delegate. She won the Doc Weir Award for service to UK fandom."
                            }
                         },
                         "data": {

@@ -49,7 +49,7 @@ var artshow_brad_foster = (function(){
                               "title": "Brad Foster",
                               "link-text": "More about Brad Foster",
                               "link": "http://fancyclopedia.org/Brad_Foster",
-                              "text": ""
+                              "text": "Brad Foster is a Texas fan artist. He has won a Rotsler award and multiple Hugo awards for Best Fan Artist. Brad is an indefatigable supporter of fannish conventions and zines. His style of precise, complex, fine line drawing is instantly recognizable."
                            }
                         },
                         "data": {

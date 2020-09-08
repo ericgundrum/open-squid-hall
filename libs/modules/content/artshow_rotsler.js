@@ -40,7 +40,7 @@ var artshow_rotsler = (function(){
                               "title": "Bill Rotsler",
                               "link-text": "More about Bill Rotsler",
                               "link": "http://fancyclopedia.org/Bill_Rotsler",
-                              "text": ""
+                              "text": "Bill Rotsler was an American fan artist, writer, editor, and science fiction author. The Rotsler award is named after him. He has not won a Rotsler, but he has won multiple Hugo awards for Best Fan Artist."
                            }
                         },
                         "data": {

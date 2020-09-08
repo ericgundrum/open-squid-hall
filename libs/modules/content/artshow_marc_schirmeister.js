@@ -40,7 +40,7 @@ var artshow_marc_schirmeister = (function(){
                               "title": "Marc Schirmeister",
                               "link-text": "More about Marc Schirmeister",
                               "link": "http://fancyclopedia.org/Marc_Schirmeister",
-                              "text": ""
+                              "text": "Marc Schirmeister is an American fan artist. He is a Rotsler award winner."
                            }
                         },
                         "data": {

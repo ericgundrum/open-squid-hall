@@ -64,7 +64,7 @@ var artshow_jeanne_gomoll = (function(){
                               "title": "Jeanne Gomoll",
                               "link-text": "More about Jeanne Gomoll",
                               "link": "http://fancyclopedia.org/Jeanne_Gomoll",
-                              "text": ""
+                              "text": "Jeanne Gomoll is an American fan artist, writer, editor, and con runner. She is one of the founders of WisCon. She was the 1987 TAFF delegate. She has won the Rotsler award for Best Fan Artist and multiple FAAn awards for Best Fan Editor. She has been a multiple Hugo finalist for Best Fanzine and Best Fan Artist."
                            }
                         },
                         "data": {

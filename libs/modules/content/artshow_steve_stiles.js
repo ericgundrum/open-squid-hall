@@ -103,7 +103,7 @@ var artshow_steve_stiles = (function(){
                               "title": "Steve Stiles",
                               "link-text": "More about Steve Stiles",
                               "link": "http://fancyclopedia.org/Steve_Stiles",
-                              "text": ""
+                              "text": "Steve Stiles was an American fan artist and fan writer. He was the 1968 TAFF delegate. He was a Rotsler award winner. He won multiple FAAn awards for Best Fan Artist. He was a Hugo finalist many times, finally winning one for Best Fan Artist. Stiles was known for his fantastic creative, offbeat, ironic and intelligent sense of humor."
                            }
                         },
                         "data": {
@@ -180,7 +180,7 @@ var artshow_steve_stiles = (function(){
                               "title": "Steve Stiles",
                               "link-text": "More about Steve Stiles",
                               "link": "http://fancyclopedia.org/Steve_Stiles",
-                              "text": ""
+                              "text": "Steve Stiles was an American fan artist and fan writer. He was the 1968 TAFF delegate. He was a Rotsler award winner. He won multiple FAAn awards for Best Fan Artist. He was a Hugo finalist many times, finally winning one for Best Fan Artist. Stiles was known for his fantastic creative, offbeat, ironic and intelligent sense of humor."
                            }
                         },
                         "data": {

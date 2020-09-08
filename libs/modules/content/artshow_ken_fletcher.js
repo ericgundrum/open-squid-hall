@@ -49,7 +49,7 @@ var artshow_ken_fletcher = (function(){
                               "title": "Ken Fletcher",
                               "link-text": "More about Ken Fletcher",
                               "link": "http://fancyclopedia.org/Ken_Fletcher",
-                              "text": ""
+                              "text": "Ken Fletcher is an American fan artist. He is well known for art supporting the Minneapolis in 73 bid. He is a Rotsler award winner. He was the 1979 DUFF delegate."
                            }
                         },
                         "data": {

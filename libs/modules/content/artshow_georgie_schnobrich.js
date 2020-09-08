@@ -56,7 +56,7 @@ var artshow_georgie_schnobrich = (function(){
                               "title": "Georgie Schnobrich",
                               "link-text": "More about Georgie Schnobrich",
                               "link": "http://fancyclopedia.org/Georgie_Schnobrich",
-                              "text": ""
+                              "text": "Georgie Schnobrich is an American fan artist, writer, editor and con runner. There was a special issue of Wabe published in her honor."
                            }
                         },
                         "data": {

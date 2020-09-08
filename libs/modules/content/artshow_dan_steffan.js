@@ -88,7 +88,7 @@ var artshow_dan_steffan = (function(){
                               "title": "Dan Steffan",
                               "link-text": "More about Dan Steffan",
                               "link": "http://fancyclopedia.org/Dan_Steffan",
-                              "text": ""
+                              "text": "Dan Steffan is a fan artist, writer and editor. He was the 1995 TAFF delegate. He has won multiple FAAn awards for Best Fan Artist, one FAAn award for Best Fanzine, and is a Past-President of FWA. Without a doubt, one of the best fan artists alive, and also an excellent writer. It is completely inexplicable how he has been overlooked for the Hugo."
                            }
                         },
                         "data": {
@@ -154,7 +154,7 @@ var artshow_dan_steffan = (function(){
                               "title": "Dan Steffan",
                               "link-text": "More about Dan Steffan",
                               "link": "http://fancyclopedia.org/Dan_Steffan",
-                              "text": ""
+                              "text": "Dan Steffan is a fan artist, writer and editor. He was the 1995 TAFF delegate. He has won multiple FAAn awards for Best Fan Artist, one FAAn award for Best Fanzine, and is a Past-President of FWA. Without a doubt, one of the best fan artists alive, and also an excellent writer. It is completely inexplicable how he has been overlooked for the Hugo."
                            }
                         },
                         "data": {

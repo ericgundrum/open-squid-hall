@@ -48,7 +48,7 @@ var artshow_stu_shiffman = (function(){
                               "title": "Stu Shiffman",
                               "link-text": "More about Stu Shiffman",
                               "link": "http://fancyclopedia.org/Stu_Shiffman",
-                              "text": ""
+                              "text": "Stu Shiffman was an American fan artist, fan writer, and one of the nicest guys in fandom. He was the 1981 TAFF delegate. He won the Rotsler award and a Hugo for Best Fan Artist. His fan writing is amazing, subtle, erudite and funny. Look for his articles in Chunga."
                            }
                         },
                         "data": {

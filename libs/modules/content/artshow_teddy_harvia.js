@@ -72,7 +72,7 @@ var artshow_teddy_harvia = (function(){
                               "title": "Teddy Harvia",
                               "link-text": "More about Teddy Harvia",
                               "link": "http://fancyclopedia.org/Teddy_Harvia",
-                              "text": ""
+                              "text": "Teddy Harvia is a Texas fan artist, writer and con runner. Teddy Harvia is is pen-name. It is an anagram of his mundane name, David Thayer. He has won the Rotsler award. He has won four Hugo awards for Best Fan Artist."
                            }
                         },
                         "data": {
@@ -138,7 +138,7 @@ var artshow_teddy_harvia = (function(){
                               "title": "Teddy Harvia",
                               "link-text": "More about Teddy Harvia",
                               "link": "http://fancyclopedia.org/Teddy_Harvia",
-                              "text": ""
+                              "text": "Teddy Harvia is a Texas fan artist, writer and con runner. Teddy Harvia is is pen-name. It is an anagram of his mundane name, David Thayer. He has won the Rotsler award. He has won four Hugo awards for Best Fan Artist."
                            }
                         },
                         "data": {
