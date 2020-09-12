@@ -218,12 +218,40 @@
 								"placer": "BannerPlacer"
 							},
 							"data": {
+								"displays":{
+									"x": 34.9,
+									"y": 11.7,
+									"z": -19.4,
+									"rotateY": 0,
+									"texture": "banner-displays.png"
+								},
 								"blm":{
 									"x": 25.0,
 									"y": 11.7,
 									"z": -29.9,
 									"rotateY": 0,
 									"texture": "banner-blm.png"
+								},
+								"artshow":{
+									"x": 11.8,
+									"y": 11.7,
+									"z": -11.6,
+									"rotateY": "$= Math.PI / 2",
+									"texture": "banner-art-show.png"
+								},
+								"siteselection":{
+									"x": 3.1,
+									"y": 11.7,
+									"z": -19.6,
+									"rotateY": "$= Math.PI / 2",
+									"texture": "banner-site-selection.png"
+								},
+								"dealers":{
+									"x": 11.8,
+									"y": 11.7,
+									"z": -32.2,
+									"rotateY": "$= Math.PI / 2",
+									"texture": "banner-dealers.png"
 								}
 							}
 						}

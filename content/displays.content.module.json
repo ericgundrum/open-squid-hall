@@ -3,8 +3,22 @@
 	"module-name": "displays",
 	"config": {
 		"generate-dir": "./libs/modules/content/",
+		"object-dir": "./objects/content/",
 		"texture-dir": "./textures/content/",
 		"autoload": true		
+	},
+	"resources": {
+		"objects": [
+			{
+				"resource-name": "hugo",
+				"config": {
+					"pack-options": {
+						"action": "insert"
+					},
+					"file-name": "hugo.babylon"
+				}
+			}
+		]
 	},
 	"layouts": [
 		{
@@ -14,18 +28,18 @@
 					"object": "wsfs.hugo-plinth",
 					"data": [
 						{
-							"place-name": "retro-hugo",
+							"place-name": "hugo",
 							"options": {
 								"placer": "PlinthPlacer",
 								"moreInfoData": {
-									"title": "Traffic Cone",
-									"link-text": "Orange is new black in our road cone world",
-									"link": "https://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objectid=11894187",
-									"text": "Under construction!"
+									"title": "2009 Hugo Award",
+									"link-text": "2009 Hugo Award Trophy",
+									"link": "http://howell.seattle.wa.us/art/base09/",
+									"text": "The 2009 Hugo Award base was designed by Seattle-based artist Dave Howell."
 								}
 							},
 							"data": {
-								"object": "trafficcone",
+								"object": "hugo",
 								"rotation": [0, 0, 0],
 								"scale": 1
 							}
