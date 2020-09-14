@@ -58,6 +58,22 @@ ______________________
 
 All the art is copyright by the respective artists. Please check out the original publications to see the images full size. 
 
+### Jim Barker
+
+[Jim Barker (Fancyclopedia)](http://fancyclopedia.org/Jim_Barker)
+
+[2013 Rotsler Award](http://www.scifiinc.org/rotsler/2013-barker/)
+
+[Jim Barker's Pro Site](http://jimbarker.net/index.html)
+
+| | |
+| --- | --- |
+| jim_barker-bob.jpg | [2013 Rotsler Award](http://www.scifiinc.org/rotsler/2013-barker/) |
+| jim_barker-daleks.jpg | [File 770](https://efanzines.com/File770/index.htm):163 |
+| jim_barker-03.jpg | [2013 Rotsler Award](http://www.scifiinc.org/rotsler/2013-barker/) |
+| jim_barker-Inca10.jpg | [Inca](https://efanzines.com/Inca/index.htm) #10 |
+
+
 ### Harry Bell
 
 [Harry Bell (Fancyclopedia)](http://fancyclopedia.org/Harry_Bell)
@@ -69,6 +85,43 @@ All the art is copyright by the respective artists. Please check out the origina
 | harry_bell-Inca09L.jpg | [Inca](https://efanzines.com/Inca/index.htm) #9 |
 | harry_bell-trap-door-25.jpg | [Trap Door](https://efanzines.com/TrapDoor/index.htm) #25 |
 | harry_bell-trap-door-29.jpg | [Trap Door](https://efanzines.com/TrapDoor/index.htm) #29 |
+
+
+### Grant Canfield
+
+[Grant Canfield (Fancyclopedia)](http://fancyclopedia.org/Grant_Canfield)
+
+[1999 Rotsler Award](http://www.scifiinc.org/rotsler/1999-canfield/)
+
+| | |
+| --- | --- |
+| grant_canfield-File770-161.jpg | [File 770](https://efanzines.com/File770/index.htm):161 |
+| grant_canfield-File770-162.jpg | [File 770](https://efanzines.com/File770/index.htm):162 |
+| grant_canfield-Al-Sid.jpg | [File 770](https://efanzines.com/File770/index.htm):165 |
+
+
+### Ross Chamberlain
+
+[Ross Chamberlain (Fancyclopedia)](http://fancyclopedia.org/Ross_Chamberlain)
+
+[2012 Rotsler Award](http://www.scifiinc.org/rotsler/2012-chamberlain/)
+
+| | |
+| --- | --- |
+| ross_chamberlain-wooden-nickel.jpg | [File 770](https://efanzines.com/File770/index.htm):163 |
+| ross_chamberlain-chunga-10-front.jpg | [Chunga](https://efanzines.com/Chunga/index.html) #10 |
+
+
+### Kurt Erichsen
+
+[Kurt Erichsen (Fancyclopedia)](http://fancyclopedia.org/Kurt_Erichsen)
+
+[2002 Rotsler Award](http://www.scifiinc.org/rotsler/2002-erichsen/)
+
+| | |
+| --- | --- |
+| kurt-erichsen-journeyplanet-46-apolloxi.jpg | [Journey Planet](https://efanzines.com/JourneyPlanet/index.htm) #46 |
+| kurt_erichsen-Dragon.jpg | [File 770](https://efanzines.com/File770/index.htm):165 |
 
 
 ### Ken Fletcher
@@ -97,6 +150,24 @@ All the art is copyright by the respective artists. Please check out the origina
 | brad_foster-trap-door-27.jpg | [Trap Door](https://efanzines.com/TrapDoor/index.htm) #27 |
 
 
+### Alexis Gilliland
+
+[Alexis Gilliland (Fancyclopedia)](http://fancyclopedia.org/Alexis_Gilliland)
+
+[2006 Rotsler Award](http://www.scifiinc.org/rotsler/2006-gilliland/)
+
+| | |
+| --- | --- |
+| alexis_gilliland-recipe.jpg | [File 770](https://efanzines.com/File770/index.htm):164 |
+| alexis_gilliland-post-literate.jpg | [File 770](https://efanzines.com/File770/index.htm):162 |
+| alexis_gilliland-zwilnik.jpg | [File 770](https://efanzines.com/File770/index.htm):161 |
+| alexis_gilliland-cell-phone.jpg | [File 770](https://efanzines.com/File770/index.htm):161 |
+| alexis_gilliland-devil.jpg | [File 770](https://efanzines.com/File770/index.htm):159 |
+| alexis_gilliland-one-app.jpg | [Chunga](https://efanzines.com/Chunga/index.html) #19 |
+| alexis_gilliland-shakespeare.jpg | [Chunga](https://efanzines.com/Chunga/index.html) #5 |
+| alexis_gilliland-rotsler-gravity.jpg | [Chunga](https://efanzines.com/Chunga/index.html) #10 |
+
+
 ### Jeanne Gomoll
 
 [Jeanne Gomoll (Fancyclopedia)](http://fancyclopedia.org/Jeanne_Gomoll)
@@ -122,10 +193,23 @@ All the art is copyright by the respective artists. Please check out the origina
 | | |
 | --- | --- |
 | teddy_harvia-Headshot.jpg | Courtesy of Teddy Harvia |
-| teddy_harvia-Submarine_Carousel_300.jpg | Courtesy of Teddy Harvia |
-| teddy_harvia-Supermarine_Carousel_300.jpg | Courtesy of Teddy Harvia |
-| teddy_harvia-colossal-squid.png | Courtesy of Teddy Harvia |
-| teddy_harvia-loscon_art_300.jpg | Courtesy of Teddy Harvia |
+| teddy_harvia-Submarine_Carousel_300.jpg | By Teddy Harvia |
+| teddy_harvia-Supermarine_Carousel_300.jpg | By Teddy Harvia |
+| teddy_harvia-colossal-squid.png | By Teddy Harvia |
+| teddy_harvia-loscon_art_300.jpg | By Teddy Harvia |
+
+
+### Terry Jeeves
+
+[Terry Jeeves (Fancyclopedia)](http://fancyclopedia.org/Terry_Jeeves)
+
+[2007 Rotsler Award](http://www.scifiinc.org/rotsler/2007-jeeves/)
+
+| | |
+| --- | --- |
+| terry_jeeves-Vector20.jpg | [Vector](http://www.fanac.org/fanzines/Vector/) #20 |
+| terry_jeeves-1.png | [QuasiQuote](https://efanzines.com/Quasiquote/index.htm) #9 |
+| terry_jeeves-2.png | [QuasiQuote](https://efanzines.com/Quasiquote/index.htm) #9 |
 
 
 ### Ditmar ("Dick") Jenssen
@@ -150,6 +234,21 @@ All the art is copyright by the respective artists. Please check out the origina
 | --- | --- |
 | sue_mason-plokta-19.jpg | [PLOKTA](https://plokta.com/plokta/index.html) issue 19 |
 | sue_mason-plokta-39.jpg | [PLOKTA](https://plokta.com/plokta/index.html) issue 39 |
+
+
+### Ray Nelson
+
+[Ray Nelson (Fancyclopedia)](http://fancyclopedia.org/Ray_Nelson)
+
+[2003 Rotsler Award](http://www.scifiinc.org/rotsler/2003-nelson/)
+
+| | |
+| --- | --- |
+| ray_nelson-crashed.png | [Chunga](https://efanzines.com/Chunga/index.html) #23 |
+| ray_nelson-flying.png | [Chunga](https://efanzines.com/Chunga/index.html) #23 |
+| ray_nelson-medusa.png | [Chunga](https://efanzines.com/Chunga/index.html) #23 |
+| ray_nelson-poetry.jpg | [File 770](https://efanzines.com/File770/index.htm):165 |
+| ray_nelson-tilt.png | [Chunga](https://efanzines.com/Chunga/index.html) #23 |
 
 
 ### Ulrika O'Brien
@@ -255,7 +354,7 @@ All the art is copyright by the respective artists. Please check out the origina
 
 | | |
 | --- | --- |
-| steve_stiles-File770-164.jpg | [File770](https://efanzines.com/File770/index.htm) #164 |
+| steve_stiles-File770-164.jpg | [File 770](https://efanzines.com/File770/index.htm):164 |
 | steve_stiles-Inca10.jpg | [Inca](https://efanzines.com/Inca/index.htm) #10 |
 | steve_stiles-Inca12.jpg | [Inca](https://efanzines.com/Inca/index.htm) #12 |
 | steve_stiles-chunga-14-back.jpg | [Chunga](https://efanzines.com/Chunga/index.html) #14 |
