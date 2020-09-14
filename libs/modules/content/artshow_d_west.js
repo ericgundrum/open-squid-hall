@@ -59,6 +59,14 @@ var artshow_d_west = (function(){
                   "dir": "textures/content/artshow/",
                   "file-name": "d_west-chunga-17-back.jpg"
                }
+         },
+         "d_west-trap-door-23-back.jpg": {
+               "options": {
+               },
+               "data": {
+                  "dir": "textures/content/artshow/",
+                  "file-name": "d_west-trap-door-23-back.jpg"
+               }
          },},
       materials: {},
       objects: {
@@ -182,6 +190,17 @@ var artshow_d_west = (function(){
                                  "position": [
                                     0.65,
                                     0.2
+                                 ]
+                              },
+                              {
+                                 "texture": "d_west-trap-door-23-back.jpg",
+                                 "size": [
+                                    0.5,
+                                    0.65
+                                 ],
+                                 "position": [
+                                    0.65,
+                                    1.0
                                  ]
                               }
                            ],

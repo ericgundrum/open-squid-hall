@@ -1,0 +1,133 @@
+{
+	"module-name": "artshow_ray_nelson",
+	"doc": "Ray Nelson's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "ray_nelson-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "ray_nelson-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "ray_nelson-crashed.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "ray_nelson-crashed.png"
+				}
+			},
+			{
+				"resource-name": "ray_nelson-flying.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "ray_nelson-flying.png"
+				}
+			},
+			{
+				"resource-name": "ray_nelson-medusa.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "ray_nelson-medusa.png"
+				}
+			},
+			{
+				"resource-name": "ray_nelson-poetry.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "ray_nelson-poetry.jpg"
+				}
+			},
+			{
+				"resource-name": "ray_nelson-tilt.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "ray_nelson-tilt.png"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-5,6-0",
+					"data": [
+						{
+							"place-name": "ray_nelson-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "Ray Nelson",
+									"link-text": "More about Ray Nelson",
+									"link": "http://fancyclopedia.org/Ray_Nelson",
+									"text": "Ray Nelson is a Rotsler Award winning fan artist, and a fan writer, editor, and professional science fiction author. He is a member of the First Fandom Hall of Fame. He invented the propellor beanie."
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "ray_nelson-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "ray_nelson-crashed.png",
+										"size": [0.33, 0.45],
+										"position": [0.05, 0.20]
+									},
+									{
+										"texture": "ray_nelson-flying.png",
+										"size": [0.33, 0.29],
+										"position": [0.43, 0.20]
+									},
+									{
+										"texture": "ray_nelson-medusa.png",
+										"size": [0.33, 0.40],
+										"position": [0.81, 0.20]
+									},
+									{
+										"texture": "ray_nelson-poetry.jpg",
+										"size": [0.5, 0.57],
+										"position": [0.05, 0.70]
+									},
+									{
+										"texture": "ray_nelson-tilt.png",
+										"size": [0.33, 0.28],
+										"position": [0.81, 0.70]
+									}
+								],
+								"place-on": "front"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,114 @@
+{
+	"module-name": "artshow_grant_canfield",
+	"doc": "Grant Canfield's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "grant_canfield-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "grant_canfield-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "grant_canfield-File770-161.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "grant_canfield-File770-161.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "grant_canfield-File770-162.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "grant_canfield-File770-162.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "grant_canfield-Al-Sid.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "grant_canfield-Al-Sid.jpg"
+				},
+				"options": {
+					"loader": "default"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-3,4-1",
+					"data": [
+						{
+							"place-name": "grant_canfield-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "Grant Canfield",
+									"link-text": "More about Grant Canfield",
+									"link": "http://fancyclopedia.org/Grant_Canfield",
+									"text": "Grant Canfield is a Rotsler and FAAn Award winning fan artist."
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "grant_canfield-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "grant_canfield-File770-161.jpg",
+										"size": [0.5, 0.65],
+										"position": [0.05, 0.20]
+									},
+									{
+										"texture": "grant_canfield-File770-162.jpg",
+										"size": [0.5, 0.65],
+										"position": [0.65, 0.20]
+									},
+									{
+										"texture": "grant_canfield-Al-Sid.jpg",
+										"size": [0.5, 0.60],
+										"position": [0.05, 1.0]
+									}
+								],
+								"place-on": "back"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,91 @@
+{
+	"module-name": "artshow_kurt_erichsen",
+	"doc": "Kurt Erichsen's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "kurt_erichsen-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "kurt_erichsen-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "kurt-erichsen-journeyplanet-46-apolloxi.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "kurt-erichsen-journeyplanet-46-apolloxi.jpg"
+				}
+			},
+			{
+				"resource-name": "kurt_erichsen-Dragon.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "kurt_erichsen-Dragon.jpg"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-5,6-1",
+					"data": [
+						{
+							"place-name": "kurt_erichsen-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "Kurt Erichsen",
+									"link-text": "More about Kurt Erichsen",
+									"link": "http://fancyclopedia.org/Kurt_Erichsen",
+									"text": "Kurt Erichsen is a Rotsler Award winning fan artist."
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "kurt_erichsen-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "kurt-erichsen-journeyplanet-46-apolloxi.jpg",
+										"size": [0.68, 0.65],
+										"position": [0.05, 0.20]
+									},
+									{
+										"texture": "kurt_erichsen-Dragon.jpg",
+										"size": [0.37, 0.52],
+										"position": [0.78, 0.20]
+									}
+								],
+								"place-on": "front"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -23,7 +23,7 @@ var displays = (function(){
                            "placer": "PlinthPlacer",
                            "moreInfoData": {
                               "title": "2009 Hugo Award",
-                              "link-text": "2009 Hugo Award base design",
+                              "link-text": "2009 Hugo Award Trophy",
                               "link": "http://howell.seattle.wa.us/art/base09/",
                               "text": "The 2009 Hugo Award base was designed by Seattle-based artist Dave Howell."
                            }

@@ -1,0 +1,105 @@
+{
+	"module-name": "artshow_terry_jeeves",
+	"doc": "Terry Jeeves's art exhibit",
+	"config": {
+		"generate-dir": "libs/modules/content/",
+		"texture-dir": "textures/content/artshow/",
+		"autoload": true
+	},
+	"resources": {
+		"textures": [
+			{
+				"resource-name": "terry_jeeves-nameplate.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "terry_jeeves-nameplate.png"
+				},
+				"options": {
+					"loader": "default"
+				}
+			},
+			{
+				"resource-name": "terry_jeeves-Vector20.jpg",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "terry_jeeves-Vector20.jpg"
+				}
+			},
+			{
+				"resource-name": "terry_jeeves-1.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "terry_jeeves-1.png"
+				}
+			},
+			{
+				"resource-name": "terry_jeeves-2.png",
+				"config": {
+					"pack-options": {
+						"action": "link"
+					},
+					"file-name": "terry_jeeves-2.png"
+				}
+			}
+		],
+		"materials": [],
+		"objects": []
+	},
+	"layouts": [
+		{
+			"layout-name": "artshow",
+			"options": {
+			},
+			"data": [
+				{
+					"object": "artshow.art-panel-7,8-0",
+					"data": [
+						{
+							"place-name": "terry_jeeves-art",
+							"options": {
+								"placer": "ArtPlacer",
+								"moreInfoData": {
+									"title": "Terry Jeeves",
+									"link-text": "More about Terry Jeeves",
+									"link": "http://fancyclopedia.org/Terry_Jeeves",
+									"text": "Terry Jeeves was a UK fan artist, writer and publisher. He won the Doc Weir Award and the Rotsler Award. He is in the First Fandom Hall of Fame."
+								}
+							},
+							"data": {
+								"textures": [
+									{
+										"texture": "terry_jeeves-nameplate.png",
+										"size": [1.10, 0.11],
+										"position": [0.05, 0.04]
+									},
+									{
+										"texture": "terry_jeeves-Vector20.jpg",
+										"size": [0.5, 0.62],
+										"position": [0.05, 0.20]
+									},
+									{
+										"texture": "terry_jeeves-1.png",
+										"size": [0.39, 0.40],
+										"position": [0.70, 0.20]
+									},
+									{
+										"texture": "terry_jeeves-2.png",
+										"size": [0.47, 0.40],
+										"position": [0.67, 0.65]
+									}
+								],
+								"place-on": "front"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
